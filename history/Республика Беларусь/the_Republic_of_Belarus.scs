@@ -17,7 +17,7 @@ the_Republic_of_Belarus
 
 <= nrel_politico_administrative_division:
 	{
-	minsk_region;
+	minsk_region
 	};
 =>nrel_coat_of_arms:emblem_of_the_Republic_of_Belarus;
 =>nrel_state_flag: flag_of_the_Republic_of_Belarus;

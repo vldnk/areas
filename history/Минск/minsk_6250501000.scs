@@ -44,7 +44,6 @@ the_city_of_Minsk
 	(*
 	<- lang_by;;
 	*);
-=>nrel_coat_of_arms:coat_of_arms_of_Minsk;
 
 <- rrel_key_sc_element: ...
 	(*
@@ -137,7 +136,7 @@ the_city_of_Minsk
 		*);;
 	*);
 
-=> nrel_capital: the_Republic_of_Belarus;
+=> nrel_capital: the_Republic_of_Belarus;;
 
 coat_of_arms_of_Minsk
 	=> nrel_main_idtf:[герб Минска]	
@@ -152,6 +151,7 @@ coat_of_arms_of_Minsk
 		(*	
 		<- lang_by;;	
 		*);
+<- the_city_of_Minsk;
 <-concept_emblem;
 <- rrel_key_sc_element: ...
 	(*
