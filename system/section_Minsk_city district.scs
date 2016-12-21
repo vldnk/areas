@@ -3,13 +3,24 @@ section_Minsk_city_district
 	{
 		section_Central_district
 		(*
+		-> rrel_key_sc_element: Central_district;;
 		=> nrel_section_base_order: 
 			section_Soviet_district;;
 		*);
 		section_Soviet_district
 		(*
+		-> rrel_key_sc_element: Soviet_district;;
 		=> nrel_section_base_order: 
 			section_Moscow_district;;
 		*);
 		section_Moscow_district
+		(*
+		-> rrel_key_sc_element: Moscow_district;;
+		*)
 	};;
+
+the_city_of_Minsk 
+=> nrel_inclusion:
+	Central_district;
+	Soviet_district;
+	Moscow_district;;

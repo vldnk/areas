@@ -1,0 +1,97 @@
+concept_gallery <- sc_const; sc_node_not_relation;;
+concept_art_Gallery <- sc_const; sc_node_not_relation;;
+concept_gallery => nrel_inclusion: concept_art_Gallery;;
+
+Central_district => nrel_inclusion:
+	organization_history_Museum_of_the_city_of_Minsk
+	(*
+		<- concept_museum;;
+	*);
+	organization_House_Museum_of_I_Congress_of_the_RSDLP
+	(*
+		<- concept_museum;;
+	*);
+	organization_ARTbaZa_MINSK
+	(*
+		<- concept_gallery;;
+	*);
+	organization_Andes
+	(*
+		<- concept_museum;;
+	*);
+	organization_Artplats
+	(*
+		<- concept_gallery;;
+	*);
+	organization_Archaeological_Museum
+	(*
+		<- concept_museum;;
+	*);
+	organization_Museum_of_WWII_History
+	(*
+		<- concept_museum;;
+	*);
+	organization_Brama_Gallery
+	(*
+		<- concept_gallery;;
+	*);
+	organization_hUpper_town
+	(*
+		<- concept_gallery;;
+	*);
+	organization_Museum_of_Nature_and_Ecology_Hall
+	(*
+		<- concept_museum;;
+	*);
+	organization_Gallery_Shchemelev
+	(*
+		<- concept_art_Gallery;;
+	*);
+	organization_Museum_of_Yanka_Kupala
+	(*
+		<- concept_museum;;
+	*);
+	organization_Belarusian_Literature_Museum
+	(*
+		<- concept_museum;;
+	*);
+	organization_House_Vankovichi
+	(*
+		<- concept_museum;;
+	*);
+	organization_nature_House
+	(*
+		<- concept_gallery;;
+	*);
+	organization_LaSandr_art
+	(*
+		<- concept_gallery;;
+	*);
+	organization_Museum_of_childhood
+	(*
+		<- concept_museum;;
+	*);
+	organization_Museum_of_History_of_Theatre_and_Music
+	(*
+		<- concept_museum;;
+	*);
+	organization_The_Gallery_u
+	(*
+		<- concept_gallery;;
+	*);
+	organization_Culture_University
+	(*
+		<- concept_art_Gallery;;
+	*);
+	organization_living_U_Galubka
+	(*
+		<- concept_museum;;
+	*);
+	organization_Literary_Museum_of_Bogdanovich
+	(*
+		<- concept_gallery;;
+	*);
+	organization_Gallery_M_Savitsky
+	(*
+		<- concept_gallery;;
+	*);;

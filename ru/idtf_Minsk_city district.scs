@@ -1,3 +1,23 @@
+concept_gallery
+=> nrel_main_idtf:
+	[галерея] (* <- lang_ru;; *);;
+
+concept_art_Gallery
+=> nrel_main_idtf:
+	[художественная галерея] (* <- lang_ru;; *);;
+
+Central_district
+=> nrel_main_idtf:
+	[Центральный район] (* <- lang_ru;; *);;
+
+Soviet_district
+=> nrel_main_idtf:
+	[Советский район] (* <- lang_ru;; *);;
+
+Moscow_district
+=> nrel_main_idtf:
+	[Московский район] (* <- lang_ru;; *);;
+
 section_Minsk_city_district
 => nrel_main_idtf:
 	[Раздел. Районы города Минска] (* <- lang_ru;; *);;
@@ -13,3 +33,91 @@ section_Soviet_district
 section_Moscow_district
 => nrel_main_idtf:
 	[Раздел. Московский район] (* <- lang_ru;; *);;
+
+organization_history_Museum_of_the_city_of_Minsk
+=> nrel_main_idtf:
+	[Музей истории Минска] (* <- lang_ru;; *);;
+
+organization_House_Museum_of_I_Congress_of_the_RSDLP
+=> nrel_main_idtf:
+	[Дом-музей I съезда РСДРП] (* <- lang_ru;; *);;
+
+organization_ARTbaZa_MINSK
+=> nrel_main_idtf:
+	[ARTbaZa MINSK художественная галерея] (* <- lang_ru;; *);;
+
+organization_Andes
+=> nrel_main_idtf:
+	[Andes] (* <- lang_ru;; *);;
+
+organization_Artplats
+=> nrel_main_idtf:
+	[Артплац] (* <- lang_ru;; *);;
+
+organization_Archaeological_Museum
+=> nrel_main_idtf:
+	[Археологический музей] (* <- lang_ru;; *);;
+
+organization_Museum_of_WWII_History
+=> nrel_main_idtf:
+	[Музей истории ВОВ] (* <- lang_ru;; *);;
+
+organization_Brama_Gallery
+=> nrel_main_idtf:
+	[Брама] (* <- lang_ru;; *);;
+
+organization_hUpper_town
+=> nrel_main_idtf:
+	[Верхний город] (* <- lang_ru;; *);;
+
+organization_Museum_of_Nature_and_Ecology_Hall
+=> nrel_main_idtf:
+	[Зал музея природы и экологии] (* <- lang_ru;; *);;
+
+organization_Gallery_Shchemelev
+=> nrel_main_idtf:
+	[Галерея Щемелева] (* <- lang_ru;; *);;
+
+organization_Museum_of_Yanka_Kupala
+=> nrel_main_idtf:
+	[Музей Я.Купалы Музей] (* <- lang_ru;; *);;
+
+organization_Belarusian_Literature_Museum
+=> nrel_main_idtf:
+	[Музей белорусской литературы Музей] (* <- lang_ru;; *);;
+
+organization_House_Vankovichi
+=> nrel_main_idtf:
+	[Дом Ваньковичей] (* <- lang_ru;; *);;
+
+organization_nature_House
+=> nrel_main_idtf:
+	[Дом природы] (* <- lang_ru;; *);;
+
+organization_LaSandr_art
+=> nrel_main_idtf:
+	[ЛаСандр-арт] (* <- lang_ru;; *);;
+
+organization_Museum_of_childhood
+=> nrel_main_idtf:
+	[Музей детства] (* <- lang_ru;; *);;
+
+organization_Museum_of_History_of_Theatre_and_Music
+=> nrel_main_idtf:
+	[Музей истории театра и музыки] (* <- lang_ru;; *);;
+
+organization_The_Gallery_u
+=> nrel_main_idtf:
+	[Галерея Ў] (* <- lang_ru;; *);;
+
+organization_Culture_University
+=> nrel_main_idtf:
+	[Университет Культуры] (* <- lang_ru;; *);;
+
+organization_living_U_Galubka
+=> nrel_main_idtf:
+	[Гасцёўня У.Галубка] (* <- lang_ru;; *);;
+
+organization_Gallery_M_Savitsky
+=> nrel_main_idtf:
+	[Галерея М.Савицкого] (* <- lang_ru;; *);;
