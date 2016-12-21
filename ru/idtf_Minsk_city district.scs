@@ -1,0 +1,15 @@
+section_Minsk_city_district
+=> nrel_main_idtf:
+	[Раздел. Районы города Минска] (* <- lang_ru;; *);;
+
+section_Central_district
+=> nrel_main_idtf:
+	[Раздел. Центральный район] (* <- lang_ru;; *);;
+
+section_Soviet_district
+=> nrel_main_idtf:
+	[Раздел. Советский район] (* <- lang_ru;; *);;
+
+section_Moscow_district
+=> nrel_main_idtf:
+	[Раздел. Московский район] (* <- lang_ru;; *);;

@@ -1,0 +1,15 @@
+section_Minsk_city_district
+	<= nrel_section_decomposition:
+	{
+		section_Central_district
+		(*
+		=> nrel_section_base_order: 
+			section_Soviet_district;;
+		*);
+		section_Soviet_district
+		(*
+		=> nrel_section_base_order: 
+			section_Moscow_district;;
+		*);
+		section_Moscow_district
+	};;
