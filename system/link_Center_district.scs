@@ -95,3 +95,59 @@ Central_district => nrel_inclusion:
 	(*
 		<- concept_gallery;;
 	*);;
+
+Central_district => nrel_inclusion:
+	organization_Minsk_numer_10_Library
+	(*
+		<- concept_library;;
+	*);
+	Minsk_scientific_and_technical_library
+	(*
+		<- concept_library;;
+	*);
+	Minsk_Central_Childrens_Library
+	(*
+		<- concept_library;;
+	*);;
+
+Central_district => nrel_inclusion: 
+	Theatre_Belarusian_State_Youth_Theatre
+	(*
+		<- concept_theater;;
+	*);
+	Theatre_Republican_Belarusian_Drama_Theater
+	(*
+		<- concept_theater;;
+	*);
+	Theatre_Studio_actor
+	(*
+		<- concept_theater;;
+	*);
+	Theatre_The_National_Academic_Bolshoi_Opera_and_Ballet_Theatre
+	(*
+		<- concept_theater;;
+	*);
+	Theatre_National_Academic_Drama_Theatre_Gorky
+	(*
+		<- concept_theater;;
+	*);
+	Theatre_The_Belarusian_State_Academic_Musical_Theater
+	(*
+		<- concept_theater;;
+	*);
+	Theatre_Drama_Theatre_of_the_Belarusian_army
+	(*
+		<- concept_theater;;
+	*);
+	Theatre_Central_House_of_Officers
+	(*
+		<- concept_theater;;
+	*);
+	Theatre_Small_stage_of_the_National_Academic_Theater_Kupala
+	(*
+		<- concept_theater;;
+	*);	
+	Theatre_House_of_Writers
+	(*
+		<- concept_theater;;
+	*);;
