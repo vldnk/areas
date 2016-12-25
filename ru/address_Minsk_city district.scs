@@ -1,32 +1,120 @@
 organization_history_Museum_of_the_city_of_Minsk
+=> nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.9031949, 27.5525616] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.9031949] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.5525616] ;; *);; *);;
+                    *);;
+        *);;
+*);
 => nrel_address:
 	[г. Минск, ул. Революционная, 10] (* <- lang_ru;; *);;
 
 organization_House_Museum_of_I_Congress_of_the_RSDLP
+=> nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.9078349, 27.5716031] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.9078349] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.5716031] ;; *);; *);;
+                    *);;
+        *);;
+*);
 => nrel_address:
 	[г. Минск, проспект Независимости, 31а] (* <- lang_ru;; *);;
 
 organization_ARTbaZa_MINSK
+=> nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.9068932, 27.538767] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.9068932] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.538767] ;; *);; *);;
+                    *);;
+        *);;
+*);
 => nrel_address:
 	[г. Минск, ул. Максима Танка 6] (* <- lang_ru;; *);;
 
 organization_Andes
+=> nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.9040617, 27.5524423] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.9040617] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.5524423] ;; *);; *);;
+                    *);;
+        *);;
+*);
 => nrel_address:
 	[г. Минск, ул. Немига, 3] (* <- lang_ru;; *);;
 
 organization_Artplats
+=> nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.9166803, 27.5570458] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.9166803] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.5570458] ;; *);; *);;
+                    *);;
+        *);;
+*);
 => nrel_address:
 	[г. Минск, ул. Кропоткина, 44] (* <- lang_ru;; *);;
 
 organization_Archaeological_Museum
+=> nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.9050508, 27.5568572] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.9050508] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.5568572] ;; *);; *);;
+                    *);;
+        *);;
+*);
 => nrel_address:
 	[г. Минск, ул. Кирилла и Мефодия, 6] (* <- lang_ru;; *);;
 
 organization_Museum_of_WWII_History
+=> nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.916368, 27.537843] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.916368] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.537843] ;; *);; *);;
+                    *);;
+        *);;
+*);
 => nrel_address:
 	[г. Минск, пр-т Победителей, 8] (* <- lang_ru;; *);;
 
 organization_Brama_Gallery
+=> nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.9102476, 27.5766438] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.9102476] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.5766438] ;; *);; *);;
+                    *);;
+        *);;
+*);
 => nrel_address:
 	[г. Минск, пр-т. Независимости, 39] (* <- lang_ru;; *);;
 
@@ -35,54 +123,197 @@ organization_Brama_Gallery
 //	[Верхний город] (* <- lang_ru;; *);;
 
 organization_Museum_of_Nature_and_Ecology_Hall
+=> nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.8446943, 27.509315] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.8446943] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.509315] ;; *);; *);;
+                    *);;
+        *);;
+*);
 => nrel_address:
 	[г.Минск, улица Казинца, 117] (* <- lang_ru;; *);;
 
 organization_Gallery_Shchemelev
+=> nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.8676491, 27.6025862] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.8676491] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.6025862] ;; *);; *);;
+                    *);;
+        *);;
+*);
 => nrel_address:
 	[г.Минск, пр-т Рокоссовского, 49] (* <- lang_ru;; *);;
 
 organization_Museum_of_Yanka_Kupala
+=> nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.9061738, 27.5651992] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.9061738] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.5651992] ;; *);; *);;
+                    *);;
+        *);;
+*);
 => nrel_address:
 	[г. Минск, ул. Янки Купалы, 4] (* <- lang_ru;; *);;
 
 organization_Belarusian_Literature_Museum
+=> nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.9085049, 27.5569189] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.9085049] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.5569189] ;; *);; *);;
+                    *);;
+        *);;
+*);
 => nrel_address:
 	[г. Минск, ул. Богдановича, 13, 220029] (* <- lang_ru;; *);;
 
 organization_House_Vankovichi
+=> nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.904967, 27.5599154] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.904967] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.5599154] ;; *);; *);;
+                    *);;
+        *);;
+*);
 => nrel_address:
 	[г. Минск, ул. Интернациональная, 33а] (* <- lang_ru;; *);;
 
 organization_nature_House
+=> nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.9081395, 27.5562282] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.9081395] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.5562282] ;; *);; *);;
+                    *);;
+        *);;
+*);
 => nrel_address:
 	[г. Минск, улица М.Богдановича, 9а] (* <- lang_ru;; *);;
 
 organization_LaSandr_art
+=> nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.9040442, 27.5440871] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.9040442] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.5440871] ;; *);; *);;
+                    *);;
+        *);;
+*);
 => nrel_address:
 	[г. Минск, ул. Романовская Слобода, 24] (* <- lang_ru;; *);;
 
 organization_Museum_of_childhood
+=> nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.9033584, 27.5654161] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.9033584] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.5654161] ;; *);; *);;
+                    *);;
+        *);;
+*);
 => nrel_address:
 	[г. Минск, проспект Независимости, 28] (* <- lang_ru;; *);;
 
 organization_Museum_of_History_of_Theatre_and_Music
+=> nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.9051474, 27.5592949] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.9051474] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.5592949] ;; *);; *);;
+                    *);;
+        *);;
+*);
 => nrel_address:
 	[г. Минск, Музыкальный пер., 5] (* <- lang_ru;; *);;
 
 organization_The_Gallery_u
+=> nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.9105858, 27.5754436] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.9105858] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.5754436] ;; *);; *);;
+                    *);;
+        *);;
+*);
 => nrel_address:
 	[г. Минск, пр-т Независимости, 37a] (* <- lang_ru;; *);;
 
 organization_Culture_University
+=> nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.8869153, 27.5415324] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.8869153] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.5415324] ;; *);; *);;
+                    *);;
+        *);;
+*);
 => nrel_address:
 	[г. Минск, Рабкоровская 17, 220007] (* <- lang_ru;; *);;
 
 organization_living_U_Galubka
+=> nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.9163521, 27.5600302] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.9163521] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.5600302] ;; *);; *);;
+                    *);;
+        *);;
+*);
 => nrel_address:
 	[г. Минск, ул. Старовиленская] (* <- lang_ru;; *);;
 
 organization_Gallery_M_Savitsky
+=> nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.9038831, 27.5534883] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.9038831] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.5534883] ;; *);; *);;
+                    *);;
+        *);;
+*);
 => nrel_address:
 	[г. Минск, площадь Свободы, 15] (* <- lang_ru;; *);;
 
@@ -92,27 +323,93 @@ organization_Gallery_M_Savitsky
 //	[Библиотека №10] (* <- lang_ru;; *);;
 
 Minsk_scientific_and_technical_library
+=> nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.9080311, 27.5494818] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.9080311] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.5494818] ;; *);; *);;
+                    *);;
+        *);;
+*);
 => nrel_address:
 	[г. Минск, просп. Победителей 7] (* <- lang_ru;; *);;
 
 Minsk_Central_Childrens_Library
+=> nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.8676745, 27.4839816] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.8676745] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.4839816] ;; *);; *);;
+                    *);;
+        *);;
+*);
 => nrel_address:
 	[Минск, Праспект газеты «Правда» 20] (* <- lang_ru;; *);;
 
 
 Theatre_Belarusian_State_Youth_Theatre
+=> nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.9072393, 27.5897786] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.9072393] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.5897786] ;; *);; *);;
+                    *);;
+        *);;
+*);
 => nrel_address:
 	[г. Минск, ул. Козлова, 17] (* <- lang_ru;; *);;
 
 Theatre_Republican_Belarusian_Drama_Theater
+=> nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.9166803, 27.5570458] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.9166803] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.5570458] ;; *);; *);;
+                    *);;
+        *);;
+*);
 => nrel_address:
 	[г. Минск, Кропоткина 44] (* <- lang_ru;; *);;
 
 Theatre_Studio_actor
+=> nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.9095634, 27.5472877] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.9095634] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.5472877] ;; *);; *);;
+                    *);;
+        *);;
+*);
 => nrel_address:
 	[г. Минск, просп. Победителей 13, 220004] (* <- lang_ru;; *);;
 
 Theatre_The_National_Academic_Bolshoi_Opera_and_Ballet_Theatre
+=> nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.91072, 27.561814] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.91072] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.561814] ;; *);; *);;
+                    *);;
+        *);;
+*);
 => nrel_address:
 	[г. Минск, пл. Парижской Коммуны 1] (* <- lang_ru;; *);;
 
@@ -121,21 +418,76 @@ Theatre_The_National_Academic_Bolshoi_Opera_and_Ballet_Theatre
 //	[Национальный академический драматический театр им. М.Горького] (* <- lang_ru;; *);;
 
 Theatre_The_Belarusian_State_Academic_Musical_Theater
+=> nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.8960319, 27.5396454] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.8960319] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.5396454] ;; *);; *);;
+                    *);;
+        *);;
+*);
 => nrel_address:
 	[г. Минск, ул. Мясникова, 44] (* <- lang_ru;; *);;
 
 Theatre_Drama_Theatre_of_the_Belarusian_army
+=> nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.9031949, 27.5525616] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.9031949] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.5525616] ;; *);; *);;
+                    *);;
+        *);;
+*);
 => nrel_address:
 	[г. Минск, ул. Красноармейская, 3] (* <- lang_ru;; *);;
 
 Theatre_Central_House_of_Officers
+=> nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.9022617, 27.5647616] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.9022617] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.5647616] ;; *);; *);;
+                    *);;
+        *);;
+*);
 => nrel_address:
 	[г. Минск, ул. Красноармейская 3, Минск] (* <- lang_ru;; *);;
 
 Theatre_Small_stage_of_the_National_Academic_Theater_Kupala
+=> nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.9007383, 27.5615296] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.9007383] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.5615296] ;; *);; *);;
+                    *);;
+        *);;
+*);
 => nrel_address:
 	[г. Минск, ул. Энгельса, 12] (* <- lang_ru;; *);;
 
 Theatre_House_of_Writers
+=> nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.9060542, 27.5746134] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.9060542] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.5746134] ;; *);; *);;
+                    *);;
+        *);;
+*);
 => nrel_address:
 	[г. Минск, Фрунзе, 5] (* <- lang_ru;; *);;
