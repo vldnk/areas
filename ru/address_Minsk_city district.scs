@@ -1,4 +1,10 @@
 organization_history_Museum_of_the_city_of_Minsk
+<- rrel_key_sc_element: ... (*
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ... (*
+    	-> rrel_example: "file://contents//1.jpg"(* <-image;; *);;
+    *);;
+*);
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -14,6 +20,12 @@ organization_history_Museum_of_the_city_of_Minsk
 	[г. Минск, ул. Революционная, 10] (* <- lang_ru;; *);;
 
 organization_House_Museum_of_I_Congress_of_the_RSDLP
+<- rrel_key_sc_element: ... (*
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ... (*
+    	-> rrel_example: "file://contents/2.jpg"(* <-image;; *);;
+    *);;
+*);
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -29,6 +41,12 @@ organization_House_Museum_of_I_Congress_of_the_RSDLP
 	[г. Минск, проспект Независимости, 31а] (* <- lang_ru;; *);;
 
 organization_ARTbaZa_MINSK
+<- rrel_key_sc_element: ... (*
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ... (*
+    	-> rrel_example: "file://contents/3.jpg"(* <-image;; *);;
+    *);;
+*);
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -44,6 +62,12 @@ organization_ARTbaZa_MINSK
 	[г. Минск, ул. Максима Танка 6] (* <- lang_ru;; *);;
 
 organization_Andes
+<- rrel_key_sc_element: ... (*
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ... (*
+    	-> rrel_example: "file://contents/4.jpg"(* <-image;; *);;
+    *);;
+*);
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -59,6 +83,12 @@ organization_Andes
 	[г. Минск, ул. Немига, 3] (* <- lang_ru;; *);;
 
 organization_Artplats
+<- rrel_key_sc_element: ... (*
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ... (*
+    	-> rrel_example: "file://contents/5.jpg"(* <-image;; *);;
+    *);;
+*);
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -74,6 +104,12 @@ organization_Artplats
 	[г. Минск, ул. Кропоткина, 44] (* <- lang_ru;; *);;
 
 organization_Archaeological_Museum
+<- rrel_key_sc_element: ... (*
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ... (*
+    	-> rrel_example: "file://contents/6.jpg"(* <-image;; *);;
+    *);;
+*);
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -89,6 +125,12 @@ organization_Archaeological_Museum
 	[г. Минск, ул. Кирилла и Мефодия, 6] (* <- lang_ru;; *);;
 
 organization_Museum_of_WWII_History
+<- rrel_key_sc_element: ... (*
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ... (*
+    	-> rrel_example: "file://contents/7.jpg"(* <-image;; *);;
+    *);;
+*);
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -104,6 +146,12 @@ organization_Museum_of_WWII_History
 	[г. Минск, пр-т Победителей, 8] (* <- lang_ru;; *);;
 
 organization_Brama_Gallery
+<- rrel_key_sc_element: ... (*
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ... (*
+    	-> rrel_example: "file://contents/8.jpg"(* <-image;; *);;
+    *);;
+*);
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -123,6 +171,12 @@ organization_Brama_Gallery
 //	[Верхний город] (* <- lang_ru;; *);;
 
 organization_Museum_of_Nature_and_Ecology_Hall
+<- rrel_key_sc_element: ... (*
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ... (*
+    	-> rrel_example: "file://contents/9.jpg"(* <-image;; *);;
+    *);;
+*);
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -138,6 +192,12 @@ organization_Museum_of_Nature_and_Ecology_Hall
 	[г.Минск, улица Казинца, 117] (* <- lang_ru;; *);;
 
 organization_Gallery_Shchemelev
+<- rrel_key_sc_element: ... (*
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ... (*
+    	-> rrel_example: "file://contents/10.jpg"(* <-image;; *);;
+    *);;
+*);
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -153,6 +213,12 @@ organization_Gallery_Shchemelev
 	[г.Минск, пр-т Рокоссовского, 49] (* <- lang_ru;; *);;
 
 organization_Museum_of_Yanka_Kupala
+<- rrel_key_sc_element: ... (*
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ... (*
+    	-> rrel_example: "file://contents/11.jpg"(* <-image;; *);;
+    *);;
+*);
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -168,6 +234,12 @@ organization_Museum_of_Yanka_Kupala
 	[г. Минск, ул. Янки Купалы, 4] (* <- lang_ru;; *);;
 
 organization_Belarusian_Literature_Museum
+<- rrel_key_sc_element: ... (*
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ... (*
+    	-> rrel_example: "file://contents/12.jpg"(* <-image;; *);;
+    *);;
+*);
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -183,6 +255,12 @@ organization_Belarusian_Literature_Museum
 	[г. Минск, ул. Богдановича, 13, 220029] (* <- lang_ru;; *);;
 
 organization_House_Vankovichi
+<- rrel_key_sc_element: ... (*
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ... (*
+    	-> rrel_example: "file://contents/13.jpg"(* <-image;; *);;
+    *);;
+*);
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -198,6 +276,12 @@ organization_House_Vankovichi
 	[г. Минск, ул. Интернациональная, 33а] (* <- lang_ru;; *);;
 
 organization_nature_House
+<- rrel_key_sc_element: ... (*
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ... (*
+    	-> rrel_example: "file://contents/14.jpg"(* <-image;; *);;
+    *);;
+*);
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -213,6 +297,12 @@ organization_nature_House
 	[г. Минск, улица М.Богдановича, 9а] (* <- lang_ru;; *);;
 
 organization_LaSandr_art
+<- rrel_key_sc_element: ... (*
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ... (*
+    	-> rrel_example: "file://contents/15.jpg"(* <-image;; *);;
+    *);;
+*);
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -228,6 +318,12 @@ organization_LaSandr_art
 	[г. Минск, ул. Романовская Слобода, 24] (* <- lang_ru;; *);;
 
 organization_Museum_of_childhood
+<- rrel_key_sc_element: ... (*
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ... (*
+    	-> rrel_example: "file://contents/16.jpg"(* <-image;; *);;
+    *);;
+*);
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -243,6 +339,12 @@ organization_Museum_of_childhood
 	[г. Минск, проспект Независимости, 28] (* <- lang_ru;; *);;
 
 organization_Museum_of_History_of_Theatre_and_Music
+<- rrel_key_sc_element: ... (*
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ... (*
+    	-> rrel_example: "file://contents/17.jpg"(* <-image;; *);;
+    *);;
+*);
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -258,6 +360,24 @@ organization_Museum_of_History_of_Theatre_and_Music
 	[г. Минск, Музыкальный пер., 5] (* <- lang_ru;; *);;
 
 organization_The_Gallery_u
+<- rrel_key_sc_element: ... (*
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ... (*
+    	-> rrel_example: "file://contents/18_1.jpg"(* <-image;; *);;
+    *);;
+*);
+<- rrel_key_sc_element: ... (*
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ... (*
+    	-> rrel_example: "file://contents/18.jpg"(* <-image;; *);;
+    *);;
+*);
+<- rrel_key_sc_element: ... (*
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ... (*
+    	-> rrel_example: "file://contents/18_2.jpg"(* <-image;; *);;
+    *);;
+*);
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -273,6 +393,12 @@ organization_The_Gallery_u
 	[г. Минск, пр-т Независимости, 37a] (* <- lang_ru;; *);;
 
 organization_Culture_University
+<- rrel_key_sc_element: ... (*
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ... (*
+    	-> rrel_example: "file://contents/19.jpg"(* <-image;; *);;
+    *);;
+*);
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -288,6 +414,12 @@ organization_Culture_University
 	[г. Минск, Рабкоровская 17, 220007] (* <- lang_ru;; *);;
 
 organization_living_U_Galubka
+<- rrel_key_sc_element: ... (*
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ... (*
+    	-> rrel_example: "file://contents/20.jpg"(* <-image;; *);;
+    *);;
+*);
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -303,6 +435,12 @@ organization_living_U_Galubka
 	[г. Минск, ул. Старовиленская] (* <- lang_ru;; *);;
 
 organization_Gallery_M_Savitsky
+<- rrel_key_sc_element: ... (*
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ... (*
+    	-> rrel_example: "file://contents/21.jpg"(* <-image;; *);;
+    *);;
+*);
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -323,6 +461,12 @@ organization_Gallery_M_Savitsky
 //	[Библиотека №10] (* <- lang_ru;; *);;
 
 Minsk_scientific_and_technical_library
+<- rrel_key_sc_element: ... (*
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ... (*
+    	-> rrel_example: "file://contents/22.jpg"(* <-image;; *);;
+    *);;
+*);
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -338,6 +482,12 @@ Minsk_scientific_and_technical_library
 	[г. Минск, просп. Победителей 7] (* <- lang_ru;; *);;
 
 Minsk_Central_Childrens_Library
+<- rrel_key_sc_element: ... (*
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ... (*
+    	-> rrel_example: "file://contents/23.jpg"(* <-image;; *);;
+    *);;
+*);
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -354,6 +504,12 @@ Minsk_Central_Childrens_Library
 
 
 Theatre_Belarusian_State_Youth_Theatre
+<- rrel_key_sc_element: ... (*
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ... (*
+    	-> rrel_example: "file://contents/24.jpg"(* <-image;; *);;
+    *);;
+*);
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -369,6 +525,12 @@ Theatre_Belarusian_State_Youth_Theatre
 	[г. Минск, ул. Козлова, 17] (* <- lang_ru;; *);;
 
 Theatre_Republican_Belarusian_Drama_Theater
+<- rrel_key_sc_element: ... (*
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ... (*
+    	-> rrel_example: "file://contents/25.jpg"(* <-image;; *);;
+    *);;
+*);
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -384,6 +546,12 @@ Theatre_Republican_Belarusian_Drama_Theater
 	[г. Минск, Кропоткина 44] (* <- lang_ru;; *);;
 
 Theatre_Studio_actor
+<- rrel_key_sc_element: ... (*
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ... (*
+    	-> rrel_example: "file://contents/26.jpg"(* <-image;; *);;
+    *);;
+*);
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -399,6 +567,12 @@ Theatre_Studio_actor
 	[г. Минск, просп. Победителей 13, 220004] (* <- lang_ru;; *);;
 
 Theatre_The_National_Academic_Bolshoi_Opera_and_Ballet_Theatre
+<- rrel_key_sc_element: ... (*
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ... (*
+    	-> rrel_example: "file://contents/27.jpg"(* <-image;; *);;
+    *);;
+*);
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -413,11 +587,23 @@ Theatre_The_National_Academic_Bolshoi_Opera_and_Ballet_Theatre
 => nrel_address:
 	[г. Минск, пл. Парижской Коммуны 1] (* <- lang_ru;; *);;
 
-//Theatre_National_Academic_Drama_Theatre_Gorky
+Theatre_National_Academic_Drama_Theatre_Gorky
+<- rrel_key_sc_element: ... (*
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ... (*
+    	-> rrel_example: "file://contents/28.jpg"(* <-image;; *);;
+    *);;
+*);;
 //=> nrel_address:
 //	[Национальный академический драматический театр им. М.Горького] (* <- lang_ru;; *);;
 
 Theatre_The_Belarusian_State_Academic_Musical_Theater
+<- rrel_key_sc_element: ... (*
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ... (*
+    	-> rrel_example: "file://contents/29.jpg"(* <-image;; *);;
+    *);;
+*);
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -433,6 +619,12 @@ Theatre_The_Belarusian_State_Academic_Musical_Theater
 	[г. Минск, ул. Мясникова, 44] (* <- lang_ru;; *);;
 
 Theatre_Drama_Theatre_of_the_Belarusian_army
+<- rrel_key_sc_element: ... (*
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ... (*
+    	-> rrel_example: "file://contents/30.jpg"(* <-image;; *);;
+    *);;
+*);
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -448,6 +640,12 @@ Theatre_Drama_Theatre_of_the_Belarusian_army
 	[г. Минск, ул. Красноармейская, 3] (* <- lang_ru;; *);;
 
 Theatre_Central_House_of_Officers
+<- rrel_key_sc_element: ... (*
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ... (*
+    	-> rrel_example: "file://contents/31.jpg"(* <-image;; *);;
+    *);;
+*);
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -463,6 +661,12 @@ Theatre_Central_House_of_Officers
 	[г. Минск, ул. Красноармейская 3, Минск] (* <- lang_ru;; *);;
 
 Theatre_Small_stage_of_the_National_Academic_Theater_Kupala
+<- rrel_key_sc_element: ... (*
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ... (*
+    	-> rrel_example: "file://contents/32.jpg"(* <-image;; *);;
+    *);;
+*);
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -478,6 +682,12 @@ Theatre_Small_stage_of_the_National_Academic_Theater_Kupala
 	[г. Минск, ул. Энгельса, 12] (* <- lang_ru;; *);;
 
 Theatre_House_of_Writers
+<- rrel_key_sc_element: ... (*
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ... (*
+    	-> rrel_example: "file://contents/33.jpg"(* <-image;; *);;
+    *);;
+*);
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
