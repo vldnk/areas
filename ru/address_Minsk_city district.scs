@@ -1,0 +1,141 @@
+organization_history_Museum_of_the_city_of_Minsk
+=> nrel_address:
+	[г. Минск, ул. Революционная, 10] (* <- lang_ru;; *);;
+
+organization_House_Museum_of_I_Congress_of_the_RSDLP
+=> nrel_address:
+	[г. Минск, проспект Независимости, 31а] (* <- lang_ru;; *);;
+
+organization_ARTbaZa_MINSK
+=> nrel_address:
+	[г. Минск, ул. Максима Танка 6] (* <- lang_ru;; *);;
+
+organization_Andes
+=> nrel_address:
+	[г. Минск, ул. Немига, 3] (* <- lang_ru;; *);;
+
+organization_Artplats
+=> nrel_address:
+	[г. Минск, ул. Кропоткина, 44] (* <- lang_ru;; *);;
+
+organization_Archaeological_Museum
+=> nrel_address:
+	[г. Минск, ул. Кирилла и Мефодия, 6] (* <- lang_ru;; *);;
+
+organization_Museum_of_WWII_History
+=> nrel_address:
+	[г. Минск, пр-т Победителей, 8] (* <- lang_ru;; *);;
+
+organization_Brama_Gallery
+=> nrel_address:
+	[г. Минск, пр-т. Независимости, 39] (* <- lang_ru;; *);;
+
+//organization_hUpper_town
+//=> nrel_address:
+//	[Верхний город] (* <- lang_ru;; *);;
+
+organization_Museum_of_Nature_and_Ecology_Hall
+=> nrel_address:
+	[г.Минск, улица Казинца, 117] (* <- lang_ru;; *);;
+
+organization_Gallery_Shchemelev
+=> nrel_address:
+	[г.Минск, пр-т Рокоссовского, 49] (* <- lang_ru;; *);;
+
+organization_Museum_of_Yanka_Kupala
+=> nrel_address:
+	[г. Минск, ул. Янки Купалы, 4] (* <- lang_ru;; *);;
+
+organization_Belarusian_Literature_Museum
+=> nrel_address:
+	[г. Минск, ул. Богдановича, 13, 220029] (* <- lang_ru;; *);;
+
+organization_House_Vankovichi
+=> nrel_address:
+	[г. Минск, ул. Интернациональная, 33а] (* <- lang_ru;; *);;
+
+organization_nature_House
+=> nrel_address:
+	[г. Минск, улица М.Богдановича, 9а] (* <- lang_ru;; *);;
+
+organization_LaSandr_art
+=> nrel_address:
+	[г. Минск, ул. Романовская Слобода, 24] (* <- lang_ru;; *);;
+
+organization_Museum_of_childhood
+=> nrel_address:
+	[г. Минск, проспект Независимости, 28] (* <- lang_ru;; *);;
+
+organization_Museum_of_History_of_Theatre_and_Music
+=> nrel_address:
+	[г. Минск, Музыкальный пер., 5] (* <- lang_ru;; *);;
+
+organization_The_Gallery_u
+=> nrel_address:
+	[г. Минск, пр-т Независимости, 37a] (* <- lang_ru;; *);;
+
+organization_Culture_University
+=> nrel_address:
+	[г. Минск, Рабкоровская 17, 220007] (* <- lang_ru;; *);;
+
+organization_living_U_Galubka
+=> nrel_address:
+	[г. Минск, ул. Старовиленская] (* <- lang_ru;; *);;
+
+organization_Gallery_M_Savitsky
+=> nrel_address:
+	[г. Минск, площадь Свободы, 15] (* <- lang_ru;; *);;
+
+
+//organization_Minsk_numer_10_Library
+//=> nrel_address:
+//	[Библиотека №10] (* <- lang_ru;; *);;
+
+Minsk_scientific_and_technical_library
+=> nrel_address:
+	[г. Минск, просп. Победителей 7] (* <- lang_ru;; *);;
+
+Minsk_Central_Childrens_Library
+=> nrel_address:
+	[Минск, Праспект газеты «Правда» 20] (* <- lang_ru;; *);;
+
+
+Theatre_Belarusian_State_Youth_Theatre
+=> nrel_address:
+	[г. Минск, ул. Козлова, 17] (* <- lang_ru;; *);;
+
+Theatre_Republican_Belarusian_Drama_Theater
+=> nrel_address:
+	[г. Минск, Кропоткина 44] (* <- lang_ru;; *);;
+
+Theatre_Studio_actor
+=> nrel_address:
+	[г. Минск, просп. Победителей 13, 220004] (* <- lang_ru;; *);;
+
+Theatre_The_National_Academic_Bolshoi_Opera_and_Ballet_Theatre
+=> nrel_address:
+	[г. Минск, пл. Парижской Коммуны 1] (* <- lang_ru;; *);;
+
+//Theatre_National_Academic_Drama_Theatre_Gorky
+//=> nrel_address:
+//	[Национальный академический драматический театр им. М.Горького] (* <- lang_ru;; *);;
+
+Theatre_The_Belarusian_State_Academic_Musical_Theater
+=> nrel_address:
+	[г. Минск, ул. Мясникова, 44] (* <- lang_ru;; *);;
+
+Theatre_Drama_Theatre_of_the_Belarusian_army
+=> nrel_address:
+	[г. Минск, ул. Красноармейская, 3] (* <- lang_ru;; *);;
+
+Theatre_Central_House_of_Officers
+=> nrel_address:
+	[г. Минск, ул. Красноармейская 3, Минск] (* <- lang_ru;; *);;
+
+Theatre_Small_stage_of_the_National_Academic_Theater_Kupala
+=> nrel_address:
+	[г. Минск, ул. Энгельса, 12] (* <- lang_ru;; *);;
+
+Theatre_House_of_Writers
+=> nrel_address:
+	[г. Минск, Фрунзе, 5] (* <- lang_ru;; *);;
