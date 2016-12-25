@@ -271,3 +271,52 @@ BNTU_library
     ];
 
 <-concept_library;;	 		
+
+museum_of_sports_of_soviet_district 
+=> nrel_main_idtf:
+		[Музей спорта] (* <- lang_ru;; *);
+
+=> nrel_osm_query:
+    [
+		(
+  		node["name"="Спортивно-оздоровительный комплекс \"Олимпийский\""]({{bbox}});
+  		way["name"="Спортивно-оздоровительный комплекс \"Олимпийский\""]({{bbox}});
+  		relation["name"="Спортивно-оздоровительный комплекс \"Олимпийский\""]({{bbox}});
+		);
+		out body;
+		>;
+		out skel qt;
+    ];
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[
+			Экспозиция музея отражает историю олимпийского движения и достижений белорусских спортсменов по настоящее время.
+			]
+			(* <- lang_ru;; *);;
+		*);;	
+	*);
+
+concept_museum;;
+
+Kolas_square 		 
+=> nrel_main_idtf:
+		[Площадь Я.Коласа] (* <- lang_ru;; *);
+
+=> nrel_osm_query:
+    [
+		(
+  		node["name"="площадь Якуба Коласа"]["highway"="pedestrian"]({{bbox}});
+  		way["name"="площадь Якуба Коласа"]["highway"="pedestrian"]({{bbox}});
+  		relation["name"="площадь Якуба Коласа"]["highway"="pedestrian"]({{bbox}});
+		);
+		out body;
+		>;
+		out skel qt;
+	];;
