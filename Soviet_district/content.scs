@@ -30,6 +30,19 @@ belarusian_state_philharmonic
 		*);;
 		
 	*);
+
+=> nrel_osm_query:
+    [
+		(
+  		node["name"="Государственная филармония"]["addr:street"="проспект Независимости"]({{bbox}});
+  		way["name"="Государственная филармония"]["addr:street"="проспект Независимости"]({{bbox}});
+  		relation["name"="Государственная филармония"]["addr:street"="проспект Независимости"]({{bbox}});
+		);
+		out body;
+		>;
+		out skel qt;
+    ];
+
 => nrel_opening_date: [25 апреля 1937 года] (* <- lang_ru;; *);	
 
 <- concept_philharmonic;;
@@ -66,17 +79,54 @@ cinema_October
 		
 	*);		
 
+=> nrel_osm_query:
+    [
+    	(
+  		node["name"="Октябрь"]["addr:street"="проспект Независимости"]({{bbox}});
+  		way["name"="Октябрь"]["addr:street"="проспект Независимости"]({{bbox}});
+  		relation["name"="Октябрь"]["addr:street"="проспект Независимости"]({{bbox}});
+		);
+		out body;
+		>;
+		out skel qt;
+    ];
+
 => nrel_opening_date: [30 января 1975 года] (* <- lang_ru;; *);
 <- concept_cinema;;	
 
 central_city_library_Kupala
 => nrel_main_idtf:
 		[Библиотека Центральная городская имени Я.Купалы] (* <- lang_ru;; *);
+=> nrel_osm_query:
+    [
+		(
+  		node["addr:street"="улица Веры Хоружей"]["addr:housenumber"="16"]["addr:postcode"="220123"]({{bbox}});
+  		way["addr:street"="улица Веры Хоружей"]["addr:housenumber"="16"]["addr:postcode"="220123"]({{bbox}});
+  		relation["addr:street"="улица Веры Хоружей"]["addr:housenumber"="16"]["addr:postcode"="220123"]({{bbox}});
+		);
+		out body;
+		>;
+		out skel qt;
+    ];
+
 <-concept_library;;
 
 minsk_regional_library_of_Pushkin
 => nrel_main_idtf:
 		[Минская областная библиотека им. А. С. Пушкина] (* <- lang_ru;; *);
+
+=> nrel_osm_query:
+    [
+		(
+  		node["name"="Минская областная библиотека им. А.С. Пушкина"]["addr:street"="улица Гикало"]({{bbox}});
+  		way["name"="Минская областная библиотека им. А. С. Пушкина"]["addr:street"="улица Гикало"]({{bbox}});
+  		relation["name"="Минская областная библиотека им. А. С. Пушкина"]["addr:street"="улица Гикало"]({{bbox}});
+		);
+		out body;
+		>;
+		out skel qt;
+    ];
+
 <- rrel_key_sc_element:
 	...
 	(*
@@ -96,6 +146,19 @@ minsk_regional_library_of_Pushkin
 Max_Show_night_club  
 => nrel_main_idtf:
 		[Ночной Клуб «Макс-шоу»] (* <- lang_ru;; *);
+
+=> nrel_osm_query:
+    [
+		    	(
+  		node["name"="Октябрь"]["addr:street"="проспект Независимости"]({{bbox}});
+  		way["name"="Октябрь"]["addr:street"="проспект Независимости"]({{bbox}});
+  		relation["name"="Октябрь"]["addr:street"="проспект Независимости"]({{bbox}});
+		);
+		out body;
+		>;
+		out skel qt;
+    ];
+
 <- rrel_key_sc_element:
 	...
 	(*
@@ -125,6 +188,19 @@ Max_Show_night_club
 entertainment_center_UFO 
 => nrel_main_idtf:
 		[Развлекательный центр «НЛО»] (* <- lang_ru;; *);
+
+=> nrel_osm_query:
+    [
+		(
+  		node["name"="НЛО"]["amenity"="nightclub"]({{bbox}});
+  		way["name"="НЛО"]["amenity"="nightclub"]({{bbox}});
+  		relation["name"="НЛО"]["amenity"="nightclub"]({{bbox}});
+		);
+		out body;
+		>;
+		out skel qt;
+    ];
+
 <- rrel_key_sc_element:
 	...
 	(*
@@ -147,6 +223,18 @@ entertainment_center_DOZARI
 => nrel_main_idtf:
 		[Развлекательный центр «ДОЗАРИ»] (* <- lang_ru;; *);
 
+=> nrel_osm_query:
+    [
+		(
+  		node["name"="Dozari"]["amenity"="nightclub"]["addr:street"="проспект Независимости"]({{bbox}});
+  		way["name"="Dozari"]["amenity"="nightclub"]["addr:street"="проспект Независимости"]({{bbox}});
+  		relation["name"="Dozari"]["amenity"="nightclub"]["addr:street"="проспект Независимости"]({{bbox}});
+		);
+		out body;
+		>;
+		out skel qt;
+    ];		
+
 <- rrel_key_sc_element:
 	...
 	(*
@@ -166,4 +254,20 @@ entertainment_center_DOZARI
 <- concept_night_club;		
 <- concept_entertainment_center;;
 
-		
+BNTU_library
+=> nrel_main_idtf:
+		[Научная библиотека БНТУ] (* <- lang_ru;; *);
+
+=> nrel_osm_query:
+    [
+		(
+  		node["name"="Научная библиотека БНТУ"]["amenity"="library"]({{bbox}});
+  		way["name"="Научная библиотека БНТУ"]["amenity"="library"]({{bbox}});
+  		relation["name"="Научная библиотека БНТУ"]["amenity"="library"]({{bbox}});
+		);
+		out body;
+		>;
+		out skel qt;
+    ];
+
+<-concept_library;;	 		
