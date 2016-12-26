@@ -2,6 +2,14 @@ concept_philharmonic <- sc_node_not_relation;
 => nrel_main_idtf:
 		[филармония] (* <- lang_ru;; *);;
 
+concept_concert_hall <- sc_node_not_relation; 
+=> nrel_main_idtf:
+		[концертный зал] (* <- lang_ru;; *);;
+
+concept_cinema <- sc_node_not_relation; 
+=> nrel_main_idtf:
+		[кинотеатр] (* <- lang_ru;; *);;
+
 concept_entertainment_center
 <- sc_node_not_relation;
 => nrel_main_idtf:
@@ -44,19 +52,24 @@ belarusian_state_philharmonic
 
 <- concept_philharmonic;;
 
-concert_hall_of_belarusian_state_philharmonic => nrel_main_idtf:
+concert_hall_of_belarusian_state_philharmonic 
+	=> nrel_main_idtf:
 		[Концертный зал] (* <- lang_ru;; *);
-<- concept_concert_hall;;
-big_hall_of_belarusian_state_philharmonic => nrel_main_idtf:
+	<- concept_concert_hall;;
+
+big_hall_of_belarusian_state_philharmonic 
+	=> nrel_main_idtf:
 		[Большой зал] (* <- lang_ru;; *);;
-small_hall_of_belarusian_state_philharmonic => nrel_main_idtf:
+
+small_hall_of_belarusian_state_philharmonic 
+	=> nrel_main_idtf:
 		[Малый зал] (* <- lang_ru;; *);;
 
 belarusian_state_philharmonic 
 	<= nrel_subdividing: ... (*
-	-> concert_hall_of_belarusian_state_philharmonic;
-	-> big_hall_of_belarusian_state_philharmonic;
-	-> small_hall_of_belarusian_state_philharmonic;
+	-> concert_hall_of_belarusian_state_philharmonic;;
+	-> big_hall_of_belarusian_state_philharmonic;;
+	-> small_hall_of_belarusian_state_philharmonic;;
 	*);;		
 
 cinema_October
@@ -203,7 +216,7 @@ museum_of_sports_of_soviet_district
 		*);;	
 	*);
 
-concept_museum;;
+<- concept_museum;;
 
 Kolas_square 		 
 => nrel_main_idtf:

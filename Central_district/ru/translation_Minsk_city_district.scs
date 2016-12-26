@@ -1,10 +1,3 @@
-section_Minsk_city_district
-<= nrel_sc_text_translation:
-	...
-	(*
-	-> rrel_example: "file://htmls/section_Minsk_city_district.html" (* <-lang_ru;; *);;
-	*);;
-
 section_Central_district
 <= nrel_sc_text_translation:
 	...
@@ -17,11 +10,4 @@ section_Soviet_district
 	...
 	(*
 	-> rrel_example: "file://htmls/section_Soviet_district.html" (* <-lang_ru;; *);;
-	*);;
-
-section_Moscow_district
-<= nrel_sc_text_translation:
-	...
-	(*
-	-> rrel_example: "file://htmls/section_Moscow_district.html" (* <-lang_ru;; *);;
 	*);;

@@ -43,15 +43,4 @@ building_of_main_bsu
 				*);;
 			*);;
 		*);;
-	*);
-=> nrel_osm_query:
-    [
-		(
-  		node["name"="БГУ"]["addr:housenumber"="38"];
-		way["name"="БГУ"]["addr:housenumber"="38"];
-		relation["name"="БГУ"]["addr:housenumber"="38"];
-		);
-		out body;
-		>;
-		out skel qt;
-    ];;
+	*);;

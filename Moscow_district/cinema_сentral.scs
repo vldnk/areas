@@ -1,5 +1,4 @@
-cinema_сentral
-=> nrel_main_idtf:
+cinema_central => nrel_main_idtf:
 		[Кинотеатр центральный] (* <- lang_ru;; *);
 		[cinema Central] (* <- lang_en;; *);
 

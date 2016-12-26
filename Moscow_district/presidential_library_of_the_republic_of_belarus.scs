@@ -41,15 +41,4 @@ presidential_library_of_the_republic_of_belarus
 				*);;
 			*);;
 		*);;
-	*);
-=> nrel_osm_query:
-    [
-		(
-  		node["name"="Президентская Библиотека Республики Беларусь"]["addr:housenumber"="11"];
-		way["name"="Президентская Библиотека Республики Беларусь"]["addr:housenumber"="11"];
-		relation["name"="Президентская Библиотека Республики Беларусь"]["addr:housenumber"="11"];
-		);
-		out body;
-		>;
-		out skel qt;
-    ];;	
+	*);;

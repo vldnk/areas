@@ -41,15 +41,4 @@ belarusian_state_academic_musical_theater
 				*);;
 			*);;
 		*);;
-	*);
-=> nrel_osm_query:
-    [
-		(
-		node["name"="Музыкальный театр"]["addr:housenumber"="44"];
-		way["name"="Музыкальный театр"]["addr:housenumber"="44"];
-		relation["name"="Музыкальный театр"]["addr:housenumber"="44"];
-		);
-		out body;
-		>;
-		out skel qt;
-    ];;
+	*);;

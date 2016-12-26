@@ -1,6 +1,6 @@
 republican_scientific_medical_library
 => nrel_main_idtf:
-		[Республиканска¤ научна¤ медицинска¤ библиотека] (* <- lang_ru;; *);
+		[Республиканска¤ научная медицинская библиотека] (* <- lang_ru;; *);
 		[Republican Scientific Medical Library] (* <- lang_en;; *);
 
 => nrel_geographical_location: ...

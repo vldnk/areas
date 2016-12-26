@@ -27,15 +27,4 @@ cinema_berestye
 				*);;
 			*);;
 		*);;
-	*);
-=> nrel_osm_query:
-    [
-		(
-  		node["name"="Берестье"]["addr:housenumber"="25"];
-		way["name"="Берестье"]["addr:housenumber"="25"];
-		relation["name"="Берестье"]["addr:housenumber"="25"];
-		);
-		out body;
-		>;
-		out skel qt;
-    ];;
+	*);;

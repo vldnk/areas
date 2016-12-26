@@ -1,3 +1,4 @@
+// ================== ЦЕНТРАЛЬНЫЙ Р-ОН =======================
 Central_district
 => nrel_osm_query:
     [(
@@ -266,3 +267,226 @@ Theatre_Small_stage_of_the_National_Academic_Theater_Kupala
 out body;
 >;
 out skel qt;];;
+
+// ====================== МОСКОВСКИЙ Р-ОН =====================
+presidential_library_of_the_republic_of_belarus
+=> nrel_osm_query:
+    [
+		(
+  		node["name"="Президентская Библиотека Республики Беларусь"]["addr:housenumber"="11"];
+		way["name"="Президентская Библиотека Республики Беларусь"]["addr:housenumber"="11"];
+		relation["name"="Президентская Библиотека Республики Беларусь"]["addr:housenumber"="11"];
+		);
+		out body;
+		>;
+		out skel qt;
+    ];;	
+
+law_institute
+=> nrel_osm_query:
+    [
+		(
+  		node["name"="БИП-институт правоведения"];
+		way["name"="БИП-институт правоведения"];
+		relation["name"="БИП-институт правоведения"];
+		);
+		out body;
+		>;
+		out skel qt;
+    ];;
+
+cinema_berestye
+=> nrel_osm_query:
+    [
+		(
+  		node["name"="Берестье"]["addr:housenumber"="25"];
+		way["name"="Берестье"]["addr:housenumber"="25"];
+		relation["name"="Берестье"]["addr:housenumber"="25"];
+		);
+		out body;
+		>;
+		out skel qt;
+    ];;
+
+building_of_main_bsu
+=> nrel_osm_query:
+    [
+		(
+  		node["name"="БГУ"]["addr:housenumber"="38"];
+		way["name"="БГУ"]["addr:housenumber"="38"];
+		relation["name"="БГУ"]["addr:housenumber"="38"];
+		);
+		out body;
+		>;
+		out skel qt;
+    ];;
+
+belarusian_state_pedagogical_university
+=> nrel_osm_query:
+    [
+		(
+  		node["name"="БГПУ"];
+		way["name"="БГПУ"];
+		relation["name"="БГПУ"];
+		);
+		out body;
+		>;
+		out skel qt;
+    ];;
+
+belarusian_state_medical_university
+=> nrel_osm_query:
+    [
+		(
+		node["name"="Белорусский государственный медицинский университет"]["addr:housenumber"="83"];
+		way["name"="Белорусский государственный медицинский университет"]["addr:housenumber"="83"];
+		relation["name"="Белорусский государственный медицинский университет"]["addr:housenumber"="83"];
+		);
+		out body;
+		>;
+		out skel qt;
+    ];;
+
+belarusian_state_academic_musical_theater
+=> nrel_osm_query:
+    [
+		(
+		node["name"="Музыкальный театр"]["addr:housenumber"="44"];
+		way["name"="Музыкальный театр"]["addr:housenumber"="44"];
+		relation["name"="Музыкальный театр"]["addr:housenumber"="44"];
+		);
+		out body;
+		>;
+		out skel qt;
+    ];;
+
+// ====================== СОВЕТСКИЙ Р-ОН ======================
+belarusian_state_philharmonic
+=> nrel_osm_query:
+    [
+		(
+  		node["name"="Государственная филармония"]["addr:street"="проспект Независимости"];
+  		way["name"="Государственная филармония"]["addr:street"="проспект Независимости"];
+  		relation["name"="Государственная филармония"]["addr:street"="проспект Независимости"];
+		);
+		out body;
+		>;
+		out skel qt;
+    ];;
+
+cinema_October
+=> nrel_osm_query:
+    [
+    	(
+  		node["name"="Октябрь"]["addr:street"="проспект Независимости"];
+  		way["name"="Октябрь"]["addr:street"="проспект Независимости"];
+  		relation["name"="Октябрь"]["addr:street"="проспект Независимости"];
+		);
+		out body;
+		>;
+		out skel qt;
+    ];;
+
+central_city_library_Kupala
+=> nrel_osm_query:
+    [
+		(
+  		node["addr:street"="улица Веры Хоружей"]["addr:housenumber"="16"]["addr:postcode"="220123"];
+  		way["addr:street"="улица Веры Хоружей"]["addr:housenumber"="16"]["addr:postcode"="220123"];
+  		relation["addr:street"="улица Веры Хоружей"]["addr:housenumber"="16"]["addr:postcode"="220123"];
+		);
+		out body;
+		>;
+		out skel qt;
+    ];;
+
+minsk_regional_library_of_Pushkin
+=> nrel_osm_query:
+    [
+		(
+  		node["name"="Минская областная библиотека им. А.С. Пушкина"]["addr:street"="улица Гикало"];
+  		way["name"="Минская областная библиотека им. А. С. Пушкина"]["addr:street"="улица Гикало"];
+  		relation["name"="Минская областная библиотека им. А. С. Пушкина"]["addr:street"="улица Гикало"];
+		);
+		out body;
+		>;
+		out skel qt;
+    ];;
+
+Max_Show_night_club
+=> nrel_osm_query:
+    [
+		    	(
+  		node["name"="Октябрь"]["addr:street"="проспект Независимости"];
+  		way["name"="Октябрь"]["addr:street"="проспект Независимости"];
+  		relation["name"="Октябрь"]["addr:street"="проспект Независимости"];
+		);
+		out body;
+		>;
+		out skel qt;
+    ];;
+
+entertainment_center_UFO 
+=> nrel_osm_query:
+    [
+		(
+  		node["name"="НЛО"]["amenity"="nightclub"];
+  		way["name"="НЛО"]["amenity"="nightclub"];
+  		relation["name"="НЛО"]["amenity"="nightclub"];
+		);
+		out body;
+		>;
+		out skel qt;
+    ];;
+
+entertainment_center_DOZARI
+=> nrel_osm_query:
+    [
+		(
+  		node["name"="Dozari"]["amenity"="nightclub"]["addr:street"="проспект Независимости"];
+  		way["name"="Dozari"]["amenity"="nightclub"]["addr:street"="проспект Независимости"];
+  		relation["name"="Dozari"]["amenity"="nightclub"]["addr:street"="проспект Независимости"];
+		);
+		out body;
+		>;
+		out skel qt;
+    ];;
+
+BNTU_library
+=> nrel_osm_query:
+    [
+		(
+  		node["name"="Научная библиотека БНТУ"]["amenity"="library"];
+  		way["name"="Научная библиотека БНТУ"]["amenity"="library"];
+  		relation["name"="Научная библиотека БНТУ"]["amenity"="library"];
+		);
+		out body;
+		>;
+		out skel qt;
+    ];;
+
+museum_of_sports_of_soviet_district 
+=> nrel_osm_query:
+    [
+		(
+  		node["name"="Спортивно-оздоровительный комплекс \"Олимпийский\""];
+  		way["name"="Спортивно-оздоровительный комплекс \"Олимпийский\""];
+  		relation["name"="Спортивно-оздоровительный комплекс \"Олимпийский\""];
+		);
+		out body;
+		>;
+		out skel qt;
+    ];;
+
+Kolas_square 		 
+=> nrel_osm_query:
+    [
+		(
+  		node["name"="площадь Якуба Коласа"]["highway"="pedestrian"];
+  		way["name"="площадь Якуба Коласа"]["highway"="pedestrian"];
+  		relation["name"="площадь Якуба Коласа"]["highway"="pedestrian"];
+		);
+		out body;
+		>;
+		out skel qt;
+	];;
