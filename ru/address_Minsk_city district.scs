@@ -7,15 +7,15 @@ Central_district
 );
 out body;
 >;
-out skel qt;];
+out skel qt;];;
 
 organization_history_Museum_of_the_city_of_Minsk
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
-    	-> rrel_example: "file://contents//1.jpg"(* <-image;; *);;
+    	-> rrel_example: "file://contents/s1.jpg"(* => nrel_format: format_jpg;; *);;
     *);;
-*);
+*);;
 => nrel_osm_query:
     [(
   node["name"="Музей истории города Минска"]["addr:street"="Революционная улица"]["addr:housenumber"="10"];
@@ -43,7 +43,9 @@ organization_House_Museum_of_I_Congress_of_the_RSDLP
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
-    	-> rrel_example: "file://contents/2.jpg"(* <-image;; *);;
+    	-> rrel_example: "file://contents/2.jpg"(*
+                 	=> nrel_format: format_jpg;;
+       			 *);;
     *);;
 *);
 => nrel_osm_query:
@@ -74,7 +76,9 @@ organization_ARTbaZa_MINSK
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
-    	-> rrel_example: "file://contents/3.jpg"(* <-image;; *);;
+    	-> rrel_example: "file://contents/3.jpg"(*
+                 	=> nrel_format: format_jpg;;
+       			 *);;
     *);;
 *);
 => nrel_osm_query:
@@ -104,7 +108,9 @@ organization_Andes
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
-    	-> rrel_example: "file://contents/4.jpg"(* <-image;; *);;
+    	-> rrel_example: "file://contents/4.jpg"(*
+                 	=> nrel_format: format_jpg;;
+       			 *);;
     *);;
 *);
 => nrel_osm_query:
@@ -144,7 +150,9 @@ out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
-    	-> rrel_example: "file://contents/5.jpg"(* <-image;; *);;
+    	-> rrel_example: "file://contents/5.jpg"(*
+                 	=> nrel_format: format_jpg;;
+       			 *);;
     *);;
 *);
 => nrel_geographical_location: ...
@@ -174,7 +182,9 @@ out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
-    	-> rrel_example: "file://contents/6.jpg"(* <-image;; *);;
+    	-> rrel_example: "file://contents/6.jpg"(*
+                 	=> nrel_format: format_jpg;;
+       			 *);;
     *);;
 *);
 => nrel_geographical_location: ...
@@ -204,7 +214,9 @@ out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
-    	-> rrel_example: "file://contents/7.jpg"(* <-image;; *);;
+    	-> rrel_example: "file://contents/7.jpg"(*
+                 	=> nrel_format: format_jpg;;
+       			 *);;
     *);;
 *);
 => nrel_geographical_location: ...
@@ -234,7 +246,9 @@ out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
-    	-> rrel_example: "file://contents/8.jpg"(* <-image;; *);;
+    	-> rrel_example: "file://contents/8.jpg"(*
+                 	=> nrel_format: format_jpg;;
+       			 *);;
     *);;
 *);
 => nrel_geographical_location: ...
@@ -268,7 +282,9 @@ out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
-    	-> rrel_example: "file://contents/9.jpg"(* <-image;; *);;
+    	-> rrel_example: "file://contents/9.jpg"(*
+                 	=> nrel_format: format_jpg;;
+       			 *);;
     *);;
 *);
 => nrel_geographical_location: ...
@@ -299,7 +315,9 @@ out skel qt;
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
-    	-> rrel_example: "file://contents/10.jpg"(* <-image;; *);;
+    	-> rrel_example: "file://contents/10.jpg"(*
+                 	=> nrel_format: format_jpg;;
+       			 *);;
     *);;
 *);
 => nrel_geographical_location: ...
@@ -329,7 +347,9 @@ out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
-    	-> rrel_example: "file://contents/11.jpg"(* <-image;; *);;
+    	-> rrel_example: "file://contents/11.jpg"(*
+                 	=> nrel_format: format_jpg;;
+       			 *);;
     *);;
 *);
 => nrel_geographical_location: ...
@@ -359,7 +379,9 @@ out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
-    	-> rrel_example: "file://contents/13.jpg"(* <-image;; *);;
+    	-> rrel_example: "file://contents/13.jpg"(*
+                 	=> nrel_format: format_jpg;;
+       			 *);;
     *);;
 *);
 => nrel_geographical_location: ...
@@ -389,7 +411,9 @@ out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
-    	-> rrel_example: "file://contents/14.jpg"(* <-image;; *);;
+    	-> rrel_example: "file://contents/14.jpg"(*
+                 	=> nrel_format: format_jpg;;
+       			 *);;
     *);;
 *);
 => nrel_geographical_location: ...
@@ -419,7 +443,9 @@ out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
-    	-> rrel_example: "file://contents/15.jpg"(* <-image;; *);;
+    	-> rrel_example: "file://contents/15.jpg"(*
+                 	=> nrel_format: format_jpg;;
+       			 *);;
     *);;
 *);
 => nrel_geographical_location: ...
@@ -449,7 +475,9 @@ out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
-    	-> rrel_example: "file://contents/17.jpg"(* <-image;; *);;
+    	-> rrel_example: "file://contents/17.jpg"(*
+                 	=> nrel_format: format_jpg;;
+       			 *);;
     *);;
 *);
 => nrel_geographical_location: ...
@@ -479,19 +507,25 @@ out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
-    	-> rrel_example: "file://contents/18_1.jpg"(* <-image;; *);;
+    	-> rrel_example: "file://contents/18_1.jpg"(*
+                 	=> nrel_format: format_jpg;;
+       			 *);;
     *);;
 *);
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
-    	-> rrel_example: "file://contents/18.jpg"(* <-image;; *);;
+    	-> rrel_example: "file://contents/18.jpg"(*
+                 	=> nrel_format: format_jpg;;
+       			 *);;
     *);;
 *);
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
-    	-> rrel_example: "file://contents/18_2.jpg"(* <-image;; *);;
+    	-> rrel_example: "file://contents/18_2.jpg"(*
+                 	=> nrel_format: format_jpg;;
+       			 *);;
     *);;
 *);
 => nrel_geographical_location: ...
@@ -521,7 +555,9 @@ out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
-    	-> rrel_example: "file://contents/20.jpg"(* <-image;; *);;
+    	-> rrel_example: "file://contents/20.jpg"(*
+                 	=> nrel_format: format_jpg;;
+       			 *);;
     *);;
 *);
 => nrel_geographical_location: ...
@@ -551,7 +587,9 @@ out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
-    	-> rrel_example: "file://contents/21.jpg"(* <-image;; *);;
+    	-> rrel_example: "file://contents/21.jpg"(*
+                 	=> nrel_format: format_jpg;;
+       			 *);;
     *);;
 *);
 => nrel_geographical_location: ...
@@ -586,7 +624,9 @@ out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
-    	-> rrel_example: "file://contents/22.jpg"(* <-image;; *);;
+    	-> rrel_example: "file://contents/22.jpg"(*
+                 	=> nrel_format: format_jpg;;
+       			 *);;
     *);;
 *);
 => nrel_geographical_location: ...
@@ -616,7 +656,9 @@ out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
-    	-> rrel_example: "file://contents/25.jpg"(* <-image;; *);;
+    	-> rrel_example: "file://contents/25.jpg"(*
+                 	=> nrel_format: format_jpg;;
+       			 *);;
     *);;
 *);
 => nrel_geographical_location: ...
@@ -646,7 +688,9 @@ out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
-    	-> rrel_example: "file://contents/26.jpg"(* <-image;; *);;
+    	-> rrel_example: "file://contents/26.jpg"(*
+                 	=> nrel_format: format_jpg;;
+       			 *);;
     *);;
 *);
 => nrel_geographical_location: ...
@@ -676,7 +720,9 @@ out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
-    	-> rrel_example: "file://contents/27.jpg"(* <-image;; *);;
+    	-> rrel_example: "file://contents/27.jpg"(*
+                 	=> nrel_format: format_jpg;;
+       			 *);;
     *);;
 *);
 => nrel_geographical_location: ...
@@ -697,7 +743,9 @@ Theatre_National_Academic_Drama_Theatre_Gorky
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
-    	-> rrel_example: "file://contents/28.jpg"(* <-image;; *);;
+    	-> rrel_example: "file://contents/28.jpg"(*
+                 	=> nrel_format: format_jpg;;
+       			 *);;
     *);;
 *);;
 //=> nrel_address:
@@ -716,7 +764,9 @@ out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
-    	-> rrel_example: "file://contents/32.jpg"(* <-image;; *);;
+    	-> rrel_example: "file://contents/32.jpg"(*
+                 	=> nrel_format: format_jpg;;
+       			 *);;
     *);;
 *);
 => nrel_geographical_location: ...
