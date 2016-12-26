@@ -1,0 +1,41 @@
+cinema_berestye
+=> nrel_main_idtf:
+		[Кинотеатр Берестье] (* <- lang_ru;; *);
+		[cinema Berestye] (* <- lang_en;; *);
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.8641844, 27.4810648]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.8641844;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.4810648;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+=> nrel_osm_query:
+    [
+		(
+  		node["name"="Берестье"]["addr:housenumber"="25"];
+		way["name"="Берестье"]["addr:housenumber"="25"];
+		relation["name"="Берестье"]["addr:housenumber"="25"];
+		);
+		out body;
+		>;
+		out skel qt;
+    ];;

@@ -1,0 +1,55 @@
+belarusian_state_academic_musical_theater
+=> nrel_main_idtf:
+		[Белорусский государственный академический музыкальный театр] (* <- lang_ru;; *);
+		[Belarusian State Academic Musical Theater] (* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[«Белорусский государственный академический музыкальный театр» — один из двух белорусских музыкальных театров. ]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+		
+	*);
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.8958859, 27.5375845]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.8958859;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.5375845;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+=> nrel_osm_query:
+    [
+		(
+		node["name"="Музыкальный театр"]["addr:housenumber"="44"];
+		way["name"="Музыкальный театр"]["addr:housenumber"="44"];
+		relation["name"="Музыкальный театр"]["addr:housenumber"="44"];
+		);
+		out body;
+		>;
+		out skel qt;
+    ];;

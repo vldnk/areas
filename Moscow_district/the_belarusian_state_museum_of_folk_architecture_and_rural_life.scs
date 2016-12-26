@@ -1,0 +1,44 @@
+the_belarusian_state_museum_of_folk_architecture_and_rural_life
+=> nrel_main_idtf:
+		[Белорусский государственный музей народной архитектуры и быта] (* <- lang_ru;; *);
+		[The Belarusian State Museum of Folk Architecture and Rural Life] (* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Белорусский государственный музей народной архитектуры и быта относится к типу музеев под открытым небом или музеев-скансенов. Расположен на юго-западе от Минска, в деревне Озерцо. Основан 9 декабря 1976 года. ]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+		
+	*);
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.831088, 27.3710293]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.831088;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.3710293;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;

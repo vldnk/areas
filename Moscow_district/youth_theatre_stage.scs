@@ -1,0 +1,30 @@
+youth_theatre_stage
+=> nrel_main_idtf:
+		[Молодежный театр эстрады] (* <- lang_ru;; *);
+		[Youth Theatre stage] (* <- lang_en;; *);
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.887151, 27.5347863]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.887151;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.5347863;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;

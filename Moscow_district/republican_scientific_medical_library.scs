@@ -1,0 +1,30 @@
+republican_scientific_medical_library
+=> nrel_main_idtf:
+		[Республиканска¤ научна¤ медицинска¤ библиотека] (* <- lang_ru;; *);
+		[Republican Scientific Medical Library] (* <- lang_en;; *);
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [56.14596, 27.2279733]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 56.14596;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.2279733;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;

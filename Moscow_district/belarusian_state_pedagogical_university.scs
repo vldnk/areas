@@ -1,0 +1,41 @@
+belarusian_state_pedagogical_university
+=> nrel_main_idtf:
+		[Белорусский государственный педагогический университет] (* <- lang_ru;; *);
+		[Belarusian State Pedagogical University] (* <- lang_en;; *);
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.8944884, 27.5426315]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.8944884;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.5426315;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+=> nrel_osm_query:
+    [
+		(
+  		node["name"="БГПУ"];
+		way["name"="БГПУ"];
+		relation["name"="БГПУ"];
+		);
+		out body;
+		>;
+		out skel qt;
+    ];;

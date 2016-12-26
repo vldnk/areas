@@ -1,0 +1,41 @@
+law_institute
+=> nrel_main_idtf:
+		[Институт правоведения] (* <- lang_ru;; *);
+		[Law Institute] (* <- lang_en;; *);
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.9026997, 27.5390912]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.9026997;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.5390912;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+=> nrel_osm_query:
+    [
+		(
+  		node["name"="БИП-институт правоведения"];
+		way["name"="БИП-институт правоведения"];
+		relation["name"="БИП-институт правоведения"];
+		);
+		out body;
+		>;
+		out skel qt;
+    ];;
