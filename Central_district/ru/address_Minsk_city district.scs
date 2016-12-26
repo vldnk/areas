@@ -1,30 +1,10 @@
-Central_district
-=> nrel_osm_query:
-    [(
-  node["addr:city"="Минск"]["name"="Центральный район"];
-  way["addr:city"="Минск"]["name"="Центральный район"];
-  relation["addr:city"="Минск"]["name"="Центральный район"];
-);
-out body;
->;
-out skel qt;];;
-
 organization_history_Museum_of_the_city_of_Minsk
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
-    	-> rrel_example: "file://contents/s1.jpg"(* => nrel_format: format_jpg;; *);;
+      -> rrel_example: "file://contents/s1.jpg"(* => nrel_format: format_jpg;; *);;
     *);;
-*);;
-=> nrel_osm_query:
-    [(
-  node["name"="Музей истории города Минска"]["addr:street"="Революционная улица"]["addr:housenumber"="10"];
-  way["name"="Музей истории города Минска"]["addr:street"="Революционная улица"]["addr:housenumber"="10"];
-  relation["name"="Музей истории города Минска"]["addr:street"="Революционная улица"]["addr:housenumber"="10"];
-);
-out body;
->;
-out skel qt;];
+*);
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -37,7 +17,7 @@ out skel qt;];
         *);;
 *);
 => nrel_address:
-	[г. Минск, ул. Революционная, 10] (* <- lang_ru;; *);;
+  [г. Минск, ул. Революционная, 10] (* <- lang_ru;; *);;
 
 organization_House_Museum_of_I_Congress_of_the_RSDLP
 <- rrel_key_sc_element: ... (*
@@ -48,16 +28,6 @@ organization_House_Museum_of_I_Congress_of_the_RSDLP
        			 *);;
     *);;
 *);
-=> nrel_osm_query:
-    [(
-  node["name"="Дом-музей I-ого съезда РСДРП"]["addr:street"="проспект Независимости"]["addr:housenumber"="31А"];
-  way["name"="Дом-музей I-ого съезда РСДРП"]["addr:street"="проспект Независимости"]["addr:housenumber"="31А"];
-  relation["name"="Дом-музей I-ого съезда РСДРП"]["addr:street"="проспект Независимости"]["addr:housenumber"="31А"];
-);
-out body;
->;
-out skel qt;];
-
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -81,15 +51,6 @@ organization_ARTbaZa_MINSK
        			 *);;
     *);;
 *);
-=> nrel_osm_query:
-    [(
-  node["addr:street"="улица Максима Танка"]["addr:housenumber"="6"];
-  way["addr:street"="улица Максима Танка"]["addr:housenumber"="6"];
-  relation["addr:street"="улица Максима Танка"]["addr:housenumber"="6"];
-);
-out body;
->;
-out skel qt;];
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -113,16 +74,6 @@ organization_Andes
        			 *);;
     *);;
 *);
-=> nrel_osm_query:
-    [(
-  node["name"="Немига"]["addr:housenumber"="3"];
-  way["name"="Немига"]["addr:housenumber"="3"];
-  relation["name"="Немига"]["addr:housenumber"="3"];
-);
-out body;
->;
-out skel qt;];
-
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -138,15 +89,6 @@ out skel qt;];
 	[г. Минск, ул. Немига, 3] (* <- lang_ru;; *);;
 
 organization_Artplats
-=> nrel_osm_query:
-    [(
-  node["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
-  way["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
-  relation["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
-);
-out body;
->;
-out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -170,15 +112,6 @@ out skel qt;];
 	[г. Минск, ул. Кропоткина, 44] (* <- lang_ru;; *);;
 
 organization_Archaeological_Museum
-=> nrel_osm_query:
-    [(
-  node["name"="улица Кирилла и Мефодия"]["name:be"="вуліца Кірыла і Мяфодзія"];
-  way["name"="улица Кирилла и Мефодия"]["name:be"="вуліца Кірыла і Мяфодзія"];
-  relation["name"="улица Кирилла и Мефодия"]["name:be"="вуліца Кірыла і Мяфодзія"];
-);
-out body;
->;
-out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -202,15 +135,6 @@ out skel qt;];
 	[г. Минск, ул. Кирилла и Мефодия, 6] (* <- lang_ru;; *);;
 
 organization_Museum_of_WWII_History
-=> nrel_osm_query:
-    [(
-  node["name"="Музей истории Великой Отечественной войны"];
-  way["name"="Музей истории Великой Отечественной войны"];
-  relation["name"="Музей истории Великой Отечественной войны"];
-);
-out body;
->;
-out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -234,15 +158,6 @@ out skel qt;];
 	[г. Минск, пр-т Победителей, 8] (* <- lang_ru;; *);;
 
 organization_Brama_Gallery
-=> nrel_osm_query:
-    [(
-  node["addr:street"="проспект Независимости"]["addr:housenumber"="39"]["building"="residential"];
-  way["addr:street"="проспект Независимости"]["addr:housenumber"="39"]["building"="residential"];
-  relation["addr:street"="проспект Независимости"]["addr:housenumber"="39"]["building"="residential"];
-);
-out body;
->;
-out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -270,15 +185,6 @@ out skel qt;];
 //	[Верхний город] (* <- lang_ru;; *);;
 
 organization_Museum_of_Nature_and_Ecology_Hall
-=> nrel_osm_query:
-    [(
-  node["tourism"="museum"]["name"="Государственный музей природы и экологии Беларуси"];
-  way["tourism"="museum"]["name"="Государственный музей природы и экологии Беларуси"];
-  relation["tourism"="museum"]["name"="Государственный музей природы и экологии Беларуси"];
-);
-out body;
->;
-out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -302,16 +208,6 @@ out skel qt;];
 	[г.Минск, улица Казинца, 117] (* <- lang_ru;; *);;
 
 organization_Gallery_Shchemelev
-=> nrel_osm_query:
-    [(
-  node["addr:street"="проспект Рокоссовского"]["addr:housenumber"="49"];
-  way["addr:street"="проспект Рокоссовского"]["addr:housenumber"="49"];
-  relation["addr:street"="проспект Рокоссовского"]["addr:housenumber"="49"];
-);
-out body;
->;
-out skel qt;
-];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -335,15 +231,6 @@ out skel qt;
 	[г.Минск, пр-т Рокоссовского, 49] (* <- lang_ru;; *);;
 
 organization_Museum_of_Yanka_Kupala
-=> nrel_osm_query:
-    [(
-  node["tourism"="museum"]["name"="Государственный литературный музей Янки Купалы"];
-  way["tourism"="museum"]["name"="Государственный литературный музей Янки Купалы"];
-  relation["tourism"="museum"]["name"="Государственный литературный музей Янки Купалы"];
-);
-out body;
->;
-out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -367,15 +254,6 @@ out skel qt;];
 	[г. Минск, ул. Янки Купалы, 4] (* <- lang_ru;; *);;
 
 organization_House_Vankovichi
-=> nrel_osm_query:
-    [(
-  node["tourism"="museum"]["name"="Дом-Усадьба Ваньковичей"];
-  way["tourism"="museum"]["name"="Дом-Усадьба Ваньковичей"];
-  relation["tourism"="museum"]["name"="Дом-Усадьба Ваньковичей"];
-);
-out body;
->;
-out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -399,15 +277,6 @@ out skel qt;];
 	[г. Минск, ул. Интернациональная, 33а] (* <- lang_ru;; *);;
 
 organization_nature_House
-=> nrel_osm_query:
-    [(
-  node["tourism"="attraction"]["name"="Дом Природы"];
-  way["tourism"="attraction"]["name"="Дом Природы"];
-  relation["tourism"="attraction"]["name"="Дом Природы"];
-);
-out body;
->;
-out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -431,15 +300,6 @@ out skel qt;];
 	[г. Минск, улица М.Богдановича, 9а] (* <- lang_ru;; *);;
 
 organization_LaSandr_art
-=> nrel_osm_query:
-    [(
-  node["addr:street"="улица Романовская Слобода"]["addr:housenumber"="24"];
-  way["addr:street"="улица Романовская Слобода"]["addr:housenumber"="24"];
-  relation["addr:street"="улица Романовская Слобода"]["addr:housenumber"="24"];
-);
-out body;
->;
-out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -463,15 +323,6 @@ out skel qt;];
 	[г. Минск, ул. Романовская Слобода, 24] (* <- lang_ru;; *);;
 
 organization_Museum_of_History_of_Theatre_and_Music
-=> nrel_osm_query:
-    [(
-  node["tourism"="museum"]["name"="Государственный музей истории театральной и музыкальной культуры Республики Беларусь"];
-  way["tourism"="museum"]["name"="Государственный музей истории театральной и музыкальной культуры Республики Беларусь"];
-  relation["tourism"="museum"]["name"="Государственный музей истории театральной и музыкальной культуры Республики Беларусь"];
-);
-out body;
->;
-out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -495,15 +346,6 @@ out skel qt;];
 	[г. Минск, Музыкальный пер., 5] (* <- lang_ru;; *);;
 
 organization_The_Gallery_u
-=> nrel_osm_query:
-    [(
-  node["tourism"="museum"]["name"="Галерея современного искусства «Ў»"];
-  way["tourism"="museum"]["name"="Галерея современного искусства «Ў»"];
-  relation["tourism"="museum"]["name"="Галерея современного искусства «Ў»"];
-);
-out body;
->;
-out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -543,15 +385,6 @@ out skel qt;];
 	[г. Минск, пр-т Независимости, 37a] (* <- lang_ru;; *);;
 
 organization_living_U_Galubka
-=> nrel_osm_query:
-    [(
-  node["tourism"="museum"]["name"="Гостиная Владислава Голубка - филиал Государственного музея истории театральной и музыкальной культуры Беларуси"];
-  way["tourism"="museum"]["name"="Гостиная Владислава Голубка - филиал Государственного музея истории театральной и музыкальной культуры Беларуси"];
-  relation["tourism"="museum"]["name"="Гостиная Владислава Голубка - филиал Государственного музея истории театральной и музыкальной культуры Беларуси"];
-);
-out body;
->;
-out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -575,15 +408,6 @@ out skel qt;];
 	[г. Минск, ул. Старовиленская, 14] (* <- lang_ru;; *);;
 
 organization_Gallery_M_Savitsky
-=> nrel_osm_query:
-    [(
-  node["tourism"="museum"]["name"="Художественная галерея Михаила Савицкого"];
-  way["tourism"="museum"]["name"="Художественная галерея Михаила Савицкого"];
-  relation["tourism"="museum"]["name"="Художественная галерея Михаила Савицкого"];
-);
-out body;
->;
-out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -607,20 +431,7 @@ out skel qt;];
 	[г. Минск, площадь Свободы, 15] (* <- lang_ru;; *);;
 
 
-//organization_Minsk_numer_10_Library
-//=> nrel_address:
-//	[Библиотека №10] (* <- lang_ru;; *);;
-
 Minsk_scientific_and_technical_library
-=> nrel_osm_query:
-    [(
-  node["amenity"="library"]["name:be"="Навукова-тэхнічная бібліятэка"];
-  way["amenity"="library"]["name:be"="Навукова-тэхнічная бібліятэка"];
-  relation["amenity"="library"]["name:be"="Навукова-тэхнічная бібліятэка"];
-);
-out body;
->;
-out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -644,15 +455,6 @@ out skel qt;];
 	[г. Минск, просп. Победителей 7] (* <- lang_ru;; *);;
 
 Theatre_Republican_Belarusian_Drama_Theater
-=> nrel_osm_query:
-    [(
-  node["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
-  way["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
-  relation["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
-);
-out body;
->;
-out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -676,15 +478,6 @@ out skel qt;];
 	[г. Минск, Кропоткина 44] (* <- lang_ru;; *);;
 
 Theatre_Studio_actor
-=> nrel_osm_query:
-    [(
-  node["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
-  way["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
-  relation["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
-);
-out body;
->;
-out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -708,15 +501,6 @@ out skel qt;];
 	[г. Минск, просп. Победителей 13, 220004] (* <- lang_ru;; *);;
 
 Theatre_The_National_Academic_Bolshoi_Opera_and_Ballet_Theatre
-=> nrel_osm_query:
-    [(
-  node["amenity"="theatre"]["name:be"="Нацыянальны акадэмічны Вялікі тэатр оперы і балета Рэспублікі Беларусь"];
-  way["amenity"="theatre"]["name:be"="Нацыянальны акадэмічны Вялікі тэатр оперы і балета Рэспублікі Беларусь"];
-  relation["amenity"="theatre"]["name:be"="Нацыянальны акадэмічны Вялікі тэатр оперы і балета Рэспублікі Беларусь"];
-);
-out body;
->;
-out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -752,15 +536,6 @@ Theatre_National_Academic_Drama_Theatre_Gorky
 //	[Национальный академический драматический театр им. М.Горького] (* <- lang_ru;; *);;
 
 Theatre_Small_stage_of_the_National_Academic_Theater_Kupala
-=> nrel_osm_query:
-    [(
-  node["amenity"="theatre"]["name"="Малая сцэна"];
-  way["amenity"="theatre"]["name"="Малая сцэна"];
-  relation["amenity"="theatre"]["name"="Малая сцэна"];
-);
-out body;
->;
-out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*

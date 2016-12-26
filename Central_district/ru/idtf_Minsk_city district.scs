@@ -1,6 +1,18 @@
+concept_library
+=> nrel_main_idtf:
+	[библиотека] (* <- lang_ru;; *);;
+
 concept_gallery
 => nrel_main_idtf:
 	[галерея] (* <- lang_ru;; *);;
+
+concept_theater
+=> nrel_main_idtf:
+	[театр] (* <- lang_ru;; *);;
+
+concept_museum
+=> nrel_main_idtf:
+	[музей] (* <- lang_ru;; *);;
 
 concept_art_Gallery
 => nrel_main_idtf:

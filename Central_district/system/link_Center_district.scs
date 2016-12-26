@@ -1,5 +1,9 @@
-concept_gallery <- sc_const; sc_node_not_relation;;
-concept_art_Gallery <- sc_const; sc_node_not_relation;;
+concept_library <- sc_node_not_relation;;
+concept_museum <- sc_node_not_relation;;
+concept_theater <- sc_node_not_relation;;
+concept_gallery <- sc_node_not_relation;;
+concept_art_Gallery <- sc_node_not_relation;;
+
 concept_gallery => nrel_inclusion: concept_art_Gallery;;
 
 Central_district => nrel_inclusion:
@@ -51,10 +55,6 @@ Central_district => nrel_inclusion:
 	(*
 		<- concept_museum;;
 	*);
-	organization_Belarusian_Literature_Museum
-	(*
-		<- concept_museum;;
-	*);
 	organization_House_Vankovichi
 	(*
 		<- concept_museum;;
@@ -67,10 +67,6 @@ Central_district => nrel_inclusion:
 	(*
 		<- concept_gallery;;
 	*);
-	organization_Museum_of_childhood
-	(*
-		<- concept_museum;;
-	*);
 	organization_Museum_of_History_of_Theatre_and_Music
 	(*
 		<- concept_museum;;
@@ -79,17 +75,9 @@ Central_district => nrel_inclusion:
 	(*
 		<- concept_gallery;;
 	*);
-	organization_Culture_University
-	(*
-		<- concept_art_Gallery;;
-	*);
 	organization_living_U_Galubka
 	(*
 		<- concept_museum;;
-	*);
-	organization_Literary_Museum_of_Bogdanovich
-	(*
-		<- concept_gallery;;
 	*);
 	organization_Gallery_M_Savitsky
 	(*
@@ -104,17 +92,9 @@ Central_district => nrel_inclusion:
 	Minsk_scientific_and_technical_library
 	(*
 		<- concept_library;;
-	*);
-	Minsk_Central_Childrens_Library
-	(*
-		<- concept_library;;
 	*);;
 
 Central_district => nrel_inclusion: 
-	Theatre_Belarusian_State_Youth_Theatre
-	(*
-		<- concept_theater;;
-	*);
 	Theatre_Republican_Belarusian_Drama_Theater
 	(*
 		<- concept_theater;;
@@ -131,23 +111,7 @@ Central_district => nrel_inclusion:
 	(*
 		<- concept_theater;;
 	*);
-	Theatre_The_Belarusian_State_Academic_Musical_Theater
-	(*
-		<- concept_theater;;
-	*);
-	Theatre_Drama_Theatre_of_the_Belarusian_army
-	(*
-		<- concept_theater;;
-	*);
-	Theatre_Central_House_of_Officers
-	(*
-		<- concept_theater;;
-	*);
 	Theatre_Small_stage_of_the_National_Academic_Theater_Kupala
-	(*
-		<- concept_theater;;
-	*);	
-	Theatre_House_of_Writers
 	(*
 		<- concept_theater;;
 	*);;

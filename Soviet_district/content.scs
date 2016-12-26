@@ -1,5 +1,6 @@
-concept_philharmonic => nrel_main_idtf:
-		[Филармония] (* <- lang_ru;; *);;
+concept_philharmonic 
+=> nrel_main_idtf:
+		[филармония] (* <- lang_ru;; *);;
 
 concept_entertainment_center => nrel_main_idtf:
 		[Развлекательный центр] (* <- lang_ru;; *);;

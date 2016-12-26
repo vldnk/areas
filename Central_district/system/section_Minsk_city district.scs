@@ -19,7 +19,7 @@ section_Minsk_city_district
 		*)
 	};;
 
-the_city_of_Minsk 
+minsk 
 => nrel_inclusion:
 	Central_district;
 	Soviet_district;
