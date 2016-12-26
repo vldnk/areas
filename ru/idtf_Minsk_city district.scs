@@ -82,10 +82,6 @@ organization_Museum_of_Yanka_Kupala
 => nrel_main_idtf:
 	[Музей Я.Купалы] (* <- lang_ru;; *);;
 
-organization_Belarusian_Literature_Museum
-=> nrel_main_idtf:
-	[Музей белорусской литературы] (* <- lang_ru;; *);;
-
 organization_House_Vankovichi
 => nrel_main_idtf:
 	[Дом Ваньковичей] (* <- lang_ru;; *);;
@@ -98,10 +94,6 @@ organization_LaSandr_art
 => nrel_main_idtf:
 	[ЛаСандр-арт] (* <- lang_ru;; *);;
 
-organization_Museum_of_childhood
-=> nrel_main_idtf:
-	[Музей детства] (* <- lang_ru;; *);;
-
 organization_Museum_of_History_of_Theatre_and_Music
 => nrel_main_idtf:
 	[Музей истории театра и музыки] (* <- lang_ru;; *);;
@@ -109,10 +101,6 @@ organization_Museum_of_History_of_Theatre_and_Music
 organization_The_Gallery_u
 => nrel_main_idtf:
 	[Галерея Ў] (* <- lang_ru;; *);;
-
-organization_Culture_University
-=> nrel_main_idtf:
-	[Университет Культуры] (* <- lang_ru;; *);;
 
 organization_living_U_Galubka
 => nrel_main_idtf:
@@ -131,14 +119,6 @@ Minsk_scientific_and_technical_library
 => nrel_main_idtf:
 	[Научно-техническая библиотека] (* <- lang_ru;; *);;
 
-Minsk_Central_Childrens_Library
-=> nrel_main_idtf:
-	[Центральная детская библиотека] (* <- lang_ru;; *);;
-
-
-Theatre_Belarusian_State_Youth_Theatre
-=> nrel_main_idtf:
-	[Белорусский государственный молодёжный театр] (* <- lang_ru;; *);;
 
 Theatre_Republican_Belarusian_Drama_Theater
 => nrel_main_idtf:
@@ -156,22 +136,6 @@ Theatre_National_Academic_Drama_Theatre_Gorky
 => nrel_main_idtf:
 	[Национальный академический драматический театр им. М.Горького] (* <- lang_ru;; *);;
 
-Theatre_The_Belarusian_State_Academic_Musical_Theater
-=> nrel_main_idtf:
-	[Белорусский государственный академический музыкальный театр] (* <- lang_ru;; *);;
-
-Theatre_Drama_Theatre_of_the_Belarusian_army
-=> nrel_main_idtf:
-	[Драматический театр Белорусской армии] (* <- lang_ru;; *);;
-
-Theatre_Central_House_of_Officers
-=> nrel_main_idtf:
-	[Центральный Дом Офицеров] (* <- lang_ru;; *);;
-
 Theatre_Small_stage_of_the_National_Academic_Theater_Kupala
 => nrel_main_idtf:
 	[Малая сцена Национального академического театра им. Я.Купалы] (* <- lang_ru;; *);;
-
-Theatre_House_of_Writers
-=> nrel_main_idtf:
-	[Дом Литераторов] (* <- lang_ru;; *);;
