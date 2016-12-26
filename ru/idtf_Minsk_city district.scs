@@ -36,7 +36,7 @@ section_Moscow_district
 
 organization_history_Museum_of_the_city_of_Minsk
 => nrel_main_idtf:
-	[Музей истории Минска] (* <- lang_ru;; *);;
+	[Музей истории города Минска] (* <- lang_ru;; *);;
 
 organization_House_Museum_of_I_Congress_of_the_RSDLP
 => nrel_main_idtf:

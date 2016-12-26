@@ -5,6 +5,15 @@ organization_history_Museum_of_the_city_of_Minsk
     	-> rrel_example: "file://contents//1.jpg"(* <-image;; *);;
     *);;
 *);
+=> nrel_osm_query:
+    [(
+  node["name"="Музей истории города Минска"]["addr:street"="Революционная улица"]["addr:housenumber"="10"];
+  way["name"="Музей истории города Минска"]["addr:street"="Революционная улица"]["addr:housenumber"="10"];
+  relation["name"="Музей истории города Минска"]["addr:street"="Революционная улица"]["addr:housenumber"="10"];
+);
+out body;
+>;
+out skel qt;];
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -26,6 +35,16 @@ organization_House_Museum_of_I_Congress_of_the_RSDLP
     	-> rrel_example: "file://contents/2.jpg"(* <-image;; *);;
     *);;
 *);
+=> nrel_osm_query:
+    [(
+  node["name"="Дом-музей I-ого съезда РСДРП"]["addr:street"="проспект Независимости"]["addr:housenumber"="31А"];
+  way["name"="Дом-музей I-ого съезда РСДРП"]["addr:street"="проспект Независимости"]["addr:housenumber"="31А"];
+  relation["name"="Дом-музей I-ого съезда РСДРП"]["addr:street"="проспект Независимости"]["addr:housenumber"="31А"];
+);
+out body;
+>;
+out skel qt;];
+
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -47,6 +66,15 @@ organization_ARTbaZa_MINSK
     	-> rrel_example: "file://contents/3.jpg"(* <-image;; *);;
     *);;
 *);
+=> nrel_osm_query:
+    [(
+  node["addr:street"="улица Максима Танка"]["addr:housenumber"="6"];
+  way["addr:street"="улица Максима Танка"]["addr:housenumber"="6"];
+  relation["addr:street"="улица Максима Танка"]["addr:housenumber"="6"];
+);
+out body;
+>;
+out skel qt;];
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -68,6 +96,16 @@ organization_Andes
     	-> rrel_example: "file://contents/4.jpg"(* <-image;; *);;
     *);;
 *);
+=> nrel_osm_query:
+    [(
+  node["name"="Немига"]["addr:housenumber"="3"];
+  way["name"="Немига"]["addr:housenumber"="3"];
+  relation["name"="Немига"]["addr:housenumber"="3"];
+);
+out body;
+>;
+out skel qt;];
+
 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
@@ -83,6 +121,15 @@ organization_Andes
 	[г. Минск, ул. Немига, 3] (* <- lang_ru;; *);;
 
 organization_Artplats
+=> nrel_osm_query:
+    [(
+  node["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  way["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  relation["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+);
+out body;
+>;
+out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -104,6 +151,15 @@ organization_Artplats
 	[г. Минск, ул. Кропоткина, 44] (* <- lang_ru;; *);;
 
 organization_Archaeological_Museum
+=> nrel_osm_query:
+    [(
+  node["name"="улица Кирилла и Мефодия"]["name:be"="вуліца Кірыла і Мяфодзія"];
+  way["name"="улица Кирилла и Мефодия"]["name:be"="вуліца Кірыла і Мяфодзія"];
+  relation["name"="улица Кирилла и Мефодия"]["name:be"="вуліца Кірыла і Мяфодзія"];
+);
+out body;
+>;
+out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -125,6 +181,15 @@ organization_Archaeological_Museum
 	[г. Минск, ул. Кирилла и Мефодия, 6] (* <- lang_ru;; *);;
 
 organization_Museum_of_WWII_History
+=> nrel_osm_query:
+    [(
+  node["name"="Музей истории Великой Отечественной войны"];
+  way["name"="Музей истории Великой Отечественной войны"];
+  relation["name"="Музей истории Великой Отечественной войны"];
+);
+out body;
+>;
+out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -146,6 +211,15 @@ organization_Museum_of_WWII_History
 	[г. Минск, пр-т Победителей, 8] (* <- lang_ru;; *);;
 
 organization_Brama_Gallery
+=> nrel_osm_query:
+    [(
+  node["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  way["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  relation["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+);
+out body;
+>;
+out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -171,6 +245,15 @@ organization_Brama_Gallery
 //	[Верхний город] (* <- lang_ru;; *);;
 
 organization_Museum_of_Nature_and_Ecology_Hall
+=> nrel_osm_query:
+    [(
+  node["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  way["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  relation["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+);
+out body;
+>;
+out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -192,6 +275,15 @@ organization_Museum_of_Nature_and_Ecology_Hall
 	[г.Минск, улица Казинца, 117] (* <- lang_ru;; *);;
 
 organization_Gallery_Shchemelev
+=> nrel_osm_query:
+    [(
+  node["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  way["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  relation["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+);
+out body;
+>;
+out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -213,6 +305,15 @@ organization_Gallery_Shchemelev
 	[г.Минск, пр-т Рокоссовского, 49] (* <- lang_ru;; *);;
 
 organization_Museum_of_Yanka_Kupala
+=> nrel_osm_query:
+    [(
+  node["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  way["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  relation["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+);
+out body;
+>;
+out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -234,6 +335,15 @@ organization_Museum_of_Yanka_Kupala
 	[г. Минск, ул. Янки Купалы, 4] (* <- lang_ru;; *);;
 
 organization_Belarusian_Literature_Museum
+=> nrel_osm_query:
+    [(
+  node["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  way["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  relation["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+);
+out body;
+>;
+out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -255,6 +365,15 @@ organization_Belarusian_Literature_Museum
 	[г. Минск, ул. Богдановича, 13, 220029] (* <- lang_ru;; *);;
 
 organization_House_Vankovichi
+=> nrel_osm_query:
+    [(
+  node["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  way["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  relation["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+);
+out body;
+>;
+out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -276,6 +395,15 @@ organization_House_Vankovichi
 	[г. Минск, ул. Интернациональная, 33а] (* <- lang_ru;; *);;
 
 organization_nature_House
+=> nrel_osm_query:
+    [(
+  node["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  way["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  relation["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+);
+out body;
+>;
+out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -297,6 +425,15 @@ organization_nature_House
 	[г. Минск, улица М.Богдановича, 9а] (* <- lang_ru;; *);;
 
 organization_LaSandr_art
+=> nrel_osm_query:
+    [(
+  node["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  way["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  relation["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+);
+out body;
+>;
+out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -318,6 +455,15 @@ organization_LaSandr_art
 	[г. Минск, ул. Романовская Слобода, 24] (* <- lang_ru;; *);;
 
 organization_Museum_of_childhood
+=> nrel_osm_query:
+    [(
+  node["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  way["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  relation["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+);
+out body;
+>;
+out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -339,6 +485,15 @@ organization_Museum_of_childhood
 	[г. Минск, проспект Независимости, 28] (* <- lang_ru;; *);;
 
 organization_Museum_of_History_of_Theatre_and_Music
+=> nrel_osm_query:
+    [(
+  node["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  way["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  relation["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+);
+out body;
+>;
+out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -360,6 +515,15 @@ organization_Museum_of_History_of_Theatre_and_Music
 	[г. Минск, Музыкальный пер., 5] (* <- lang_ru;; *);;
 
 organization_The_Gallery_u
+=> nrel_osm_query:
+    [(
+  node["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  way["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  relation["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+);
+out body;
+>;
+out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -393,6 +557,15 @@ organization_The_Gallery_u
 	[г. Минск, пр-т Независимости, 37a] (* <- lang_ru;; *);;
 
 organization_Culture_University
+=> nrel_osm_query:
+    [(
+  node["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  way["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  relation["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+);
+out body;
+>;
+out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -414,6 +587,15 @@ organization_Culture_University
 	[г. Минск, Рабкоровская 17, 220007] (* <- lang_ru;; *);;
 
 organization_living_U_Galubka
+=> nrel_osm_query:
+    [(
+  node["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  way["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  relation["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+);
+out body;
+>;
+out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -435,6 +617,15 @@ organization_living_U_Galubka
 	[г. Минск, ул. Старовиленская] (* <- lang_ru;; *);;
 
 organization_Gallery_M_Savitsky
+=> nrel_osm_query:
+    [(
+  node["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  way["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  relation["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+);
+out body;
+>;
+out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -461,6 +652,15 @@ organization_Gallery_M_Savitsky
 //	[Библиотека №10] (* <- lang_ru;; *);;
 
 Minsk_scientific_and_technical_library
+=> nrel_osm_query:
+    [(
+  node["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  way["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  relation["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+);
+out body;
+>;
+out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -482,6 +682,15 @@ Minsk_scientific_and_technical_library
 	[г. Минск, просп. Победителей 7] (* <- lang_ru;; *);;
 
 Minsk_Central_Childrens_Library
+=> nrel_osm_query:
+    [(
+  node["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  way["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  relation["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+);
+out body;
+>;
+out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -504,6 +713,15 @@ Minsk_Central_Childrens_Library
 
 
 Theatre_Belarusian_State_Youth_Theatre
+=> nrel_osm_query:
+    [(
+  node["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  way["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  relation["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+);
+out body;
+>;
+out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -525,6 +743,15 @@ Theatre_Belarusian_State_Youth_Theatre
 	[г. Минск, ул. Козлова, 17] (* <- lang_ru;; *);;
 
 Theatre_Republican_Belarusian_Drama_Theater
+=> nrel_osm_query:
+    [(
+  node["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  way["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  relation["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+);
+out body;
+>;
+out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -546,6 +773,15 @@ Theatre_Republican_Belarusian_Drama_Theater
 	[г. Минск, Кропоткина 44] (* <- lang_ru;; *);;
 
 Theatre_Studio_actor
+=> nrel_osm_query:
+    [(
+  node["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  way["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  relation["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+);
+out body;
+>;
+out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -567,6 +803,15 @@ Theatre_Studio_actor
 	[г. Минск, просп. Победителей 13, 220004] (* <- lang_ru;; *);;
 
 Theatre_The_National_Academic_Bolshoi_Opera_and_Ballet_Theatre
+=> nrel_osm_query:
+    [(
+  node["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  way["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  relation["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+);
+out body;
+>;
+out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -588,6 +833,15 @@ Theatre_The_National_Academic_Bolshoi_Opera_and_Ballet_Theatre
 	[г. Минск, пл. Парижской Коммуны 1] (* <- lang_ru;; *);;
 
 Theatre_National_Academic_Drama_Theatre_Gorky
+=> nrel_osm_query:
+    [(
+  node["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  way["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  relation["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+);
+out body;
+>;
+out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -598,6 +852,15 @@ Theatre_National_Academic_Drama_Theatre_Gorky
 //	[Национальный академический драматический театр им. М.Горького] (* <- lang_ru;; *);;
 
 Theatre_The_Belarusian_State_Academic_Musical_Theater
+=> nrel_osm_query:
+    [(
+  node["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  way["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  relation["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+);
+out body;
+>;
+out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -619,6 +882,15 @@ Theatre_The_Belarusian_State_Academic_Musical_Theater
 	[г. Минск, ул. Мясникова, 44] (* <- lang_ru;; *);;
 
 Theatre_Drama_Theatre_of_the_Belarusian_army
+=> nrel_osm_query:
+    [(
+  node["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  way["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  relation["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+);
+out body;
+>;
+out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -640,6 +912,15 @@ Theatre_Drama_Theatre_of_the_Belarusian_army
 	[г. Минск, ул. Красноармейская, 3] (* <- lang_ru;; *);;
 
 Theatre_Central_House_of_Officers
+=> nrel_osm_query:
+    [(
+  node["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  way["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  relation["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+);
+out body;
+>;
+out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -661,6 +942,15 @@ Theatre_Central_House_of_Officers
 	[г. Минск, ул. Красноармейская 3, Минск] (* <- lang_ru;; *);;
 
 Theatre_Small_stage_of_the_National_Academic_Theater_Kupala
+=> nrel_osm_query:
+    [(
+  node["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  way["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  relation["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+);
+out body;
+>;
+out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -682,6 +972,15 @@ Theatre_Small_stage_of_the_National_Academic_Theater_Kupala
 	[г. Минск, ул. Энгельса, 12] (* <- lang_ru;; *);;
 
 Theatre_House_of_Writers
+=> nrel_osm_query:
+    [(
+  node["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  way["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+  relation["name"="Рэспубліканскі тэатр беларускай драматургіі"]["amenity"="theatre"];
+);
+out body;
+>;
+out skel qt;];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
