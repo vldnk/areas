@@ -1,0 +1,129 @@
+belarusian_state_philharmonic
+=> nrel_osm_query:
+    [
+		(
+  		node["name"="Государственная филармония"]["addr:street"="проспект Независимости"];
+  		way["name"="Государственная филармония"]["addr:street"="проспект Независимости"];
+  		relation["name"="Государственная филармония"]["addr:street"="проспект Независимости"];
+		);
+		out body;
+		>;
+		out skel qt;
+    ];;
+
+cinema_October
+=> nrel_osm_query:
+    [
+    	(
+  		node["name"="Октябрь"]["addr:street"="проспект Независимости"];
+  		way["name"="Октябрь"]["addr:street"="проспект Независимости"];
+  		relation["name"="Октябрь"]["addr:street"="проспект Независимости"];
+		);
+		out body;
+		>;
+		out skel qt;
+    ];;
+
+central_city_library_Kupala
+=> nrel_osm_query:
+    [
+		(
+  		node["addr:street"="улица Веры Хоружей"]["addr:housenumber"="16"]["addr:postcode"="220123"];
+  		way["addr:street"="улица Веры Хоружей"]["addr:housenumber"="16"]["addr:postcode"="220123"];
+  		relation["addr:street"="улица Веры Хоружей"]["addr:housenumber"="16"]["addr:postcode"="220123"];
+		);
+		out body;
+		>;
+		out skel qt;
+    ];;
+
+minsk_regional_library_of_Pushkin
+=> nrel_osm_query:
+    [
+		(
+  		node["name"="Минская областная библиотека им. А.С. Пушкина"]["addr:street"="улица Гикало"];
+  		way["name"="Минская областная библиотека им. А. С. Пушкина"]["addr:street"="улица Гикало"];
+  		relation["name"="Минская областная библиотека им. А. С. Пушкина"]["addr:street"="улица Гикало"];
+		);
+		out body;
+		>;
+		out skel qt;
+    ];;
+
+Max_Show_night_club
+=> nrel_osm_query:
+    [
+		    	(
+  		node["name"="Октябрь"]["addr:street"="проспект Независимости"];
+  		way["name"="Октябрь"]["addr:street"="проспект Независимости"];
+  		relation["name"="Октябрь"]["addr:street"="проспект Независимости"];
+		);
+		out body;
+		>;
+		out skel qt;
+    ];;
+
+entertainment_center_UFO 
+=> nrel_osm_query:
+    [
+		(
+  		node["name"="НЛО"]["amenity"="nightclub"];
+  		way["name"="НЛО"]["amenity"="nightclub"];
+  		relation["name"="НЛО"]["amenity"="nightclub"];
+		);
+		out body;
+		>;
+		out skel qt;
+    ];;
+
+entertainment_center_DOZARI
+=> nrel_osm_query:
+    [
+		(
+  		node["name"="Dozari"]["amenity"="nightclub"]["addr:street"="проспект Независимости"];
+  		way["name"="Dozari"]["amenity"="nightclub"]["addr:street"="проспект Независимости"];
+  		relation["name"="Dozari"]["amenity"="nightclub"]["addr:street"="проспект Независимости"];
+		);
+		out body;
+		>;
+		out skel qt;
+    ];;
+
+BNTU_library
+=> nrel_osm_query:
+    [
+		(
+  		node["name"="Научная библиотека БНТУ"]["amenity"="library"];
+  		way["name"="Научная библиотека БНТУ"]["amenity"="library"];
+  		relation["name"="Научная библиотека БНТУ"]["amenity"="library"];
+		);
+		out body;
+		>;
+		out skel qt;
+    ];;
+
+museum_of_sports_of_soviet_district 
+=> nrel_osm_query:
+    [
+		(
+  		node["name"="Спортивно-оздоровительный комплекс \"Олимпийский\""];
+  		way["name"="Спортивно-оздоровительный комплекс \"Олимпийский\""];
+  		relation["name"="Спортивно-оздоровительный комплекс \"Олимпийский\""];
+		);
+		out body;
+		>;
+		out skel qt;
+    ];;
+
+Kolas_square 		 
+=> nrel_osm_query:
+    [
+		(
+  		node["name"="площадь Якуба Коласа"]["highway"="pedestrian"];
+  		way["name"="площадь Якуба Коласа"]["highway"="pedestrian"];
+  		relation["name"="площадь Якуба Коласа"]["highway"="pedestrian"];
+		);
+		out body;
+		>;
+		out skel qt;
+	];;
