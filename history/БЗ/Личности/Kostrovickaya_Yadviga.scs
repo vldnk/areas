@@ -1,8 +1,0 @@
-Kostrovickaya_Yadviga
-<- concept_male;
-<- concept_person;
-
-=> nrel_main_idtf:
-	[Костровицкая Ядвига] (* <- lang_ru;; *);
-	[Kostrovickaya_Yadviga] (* <- lang_en;; *);
-	[Кастравіцкая Ядвіга] (* <- lang_by;; *);;

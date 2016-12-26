@@ -1,8 +1,0 @@
-Paizderski_Tomash
-<- concept_male;
-<- concept_person;
-
-=> nrel_main_idtf:
-	[Томаш Пайздерский] (* <- lang_ru;; *);
-	[PaizderskiTomash] (* <- lang_en;; *);
-	[Пайдзерскі Томаш] (* <- lang_by;; *);;

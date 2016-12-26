@@ -1,8 +1,0 @@
-Musin_Pushkin_Alexander_Alexandrovich
-<- concept_male;
-<- concept_person;
-
-=> nrel_main_idtf:
-	[Мусин-Пушкин Александр Александрович] (* <- lang_ru;; *);
-	[Musin-Pushkin Alexander Alexandrovich] (* <- lang_en;; *);
-	[Мусін-Пушкін Аляксандр Аляксандравіч] (* <- lang_by;; *);;
