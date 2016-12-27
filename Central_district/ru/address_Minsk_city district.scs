@@ -1,4 +1,8 @@
 organization_history_Museum_of_the_city_of_Minsk
+=> nrel_telephone:
+    [+37517 3212430, 3212438];
+=> nrel_email:
+    [muzejminska@gmail.com];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -66,6 +70,8 @@ organization_ARTbaZa_MINSK
 	[г. Минск, ул. Максима Танка 6] (* <- lang_ru;; *);;
 
 organization_Andes
+=> nrel_telephone: [+375 29 6515222 (velcom)];
+=> nrel_hospital_working_hours: [ПН–ВС с 12:00 до 18:00];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -89,6 +95,11 @@ organization_Andes
 	[г. Минск, ул. Немига, 3] (* <- lang_ru;; *);;
 
 organization_Artplats
+=> nrel_telephone: 
+    [+375 (29) 152-98-82];
+    [+375 (29) 390-67-77];
+=> nrel_hospital_working_hours: 
+    [пн-сб: c 12:00 до 18:00, вс: выходной];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -112,6 +123,8 @@ organization_Artplats
 	[г. Минск, ул. Кропоткина, 44] (* <- lang_ru;; *);;
 
 organization_Archaeological_Museum
+=> nrel_telephone: [8 017 321-24-26];
+=> nrel_hospital_working_hours: [со вт. по воскресенье с 11 до 19] (* <- lang_ru;; *);
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -135,6 +148,8 @@ organization_Archaeological_Museum
 	[г. Минск, ул. Кирилла и Мефодия, 6] (* <- lang_ru;; *);;
 
 organization_Museum_of_WWII_History
+=> nrel_telephone: [8 017 327-11-66];
+=> nrel_hospital_working_hours: [вт. 10-18, ср. 12-20, чт-вс. 10-18] (* <- lang_ru;;*);
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -158,6 +173,9 @@ organization_Museum_of_WWII_History
 	[г. Минск, пр-т Победителей, 8] (* <- lang_ru;; *);;
 
 organization_Brama_Gallery
+=> nrel_hospital_working_hours: [ежедневно, кроме пн, вт, с 10 до 18] (*<-lang_ru;;*);
+=> nrel_telephone: 
+    [8(0225)46-68-33];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -185,6 +203,7 @@ organization_Brama_Gallery
 //	[Верхний город] (* <- lang_ru;; *);;
 
 organization_Museum_of_Nature_and_Ecology_Hall
+=> nrel_telephone: [8(017) 237-46-94];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -208,6 +227,10 @@ organization_Museum_of_Nature_and_Ecology_Hall
 	[г.Минск, улица Казинца, 117] (* <- lang_ru;; *);;
 
 organization_Gallery_Shchemelev
+=> nrel_telephone: 
+    [8 017 321-24-26];
+=> nrel_hospital_working_hours:
+    [ср.-вс. с 11 до 19. Пн., вт. закрыто] (*<-lang_ru;;*);
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -231,6 +254,8 @@ organization_Gallery_Shchemelev
 	[г.Минск, пр-т Рокоссовского, 49] (* <- lang_ru;; *);;
 
 organization_Museum_of_Yanka_Kupala
+=> nrel_telephone: [8 017 227-78-66];
+=> nrel_hospital_working_hours: [с пн. по сб. кроме чт. 9:45–17:30, чт. 9:45–20:30, вс. закрыто] (*<-lang_ru;;*);
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -300,6 +325,7 @@ organization_nature_House
 	[г. Минск, улица М.Богдановича, 9а] (* <- lang_ru;; *);;
 
 organization_LaSandr_art
+=> nrel_telephone: [8 017 227-79-46];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -323,6 +349,8 @@ organization_LaSandr_art
 	[г. Минск, ул. Романовская Слобода, 24] (* <- lang_ru;; *);;
 
 organization_Museum_of_History_of_Theatre_and_Music
+=> nrel_telephone: [8 017 220-26-67];
+=> nrel_hospital_working_hours: [ежедневно с 10 до 18] (*<-lang_ru;;*);
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -346,6 +374,8 @@ organization_Museum_of_History_of_Theatre_and_Music
 	[г. Минск, Музыкальный пер., 5] (* <- lang_ru;; *);;
 
 organization_The_Gallery_u
+=> nrel_telephone: [8 017 284-53-99];
+=> nrel_hospital_working_hours: [ежедневно с 12 до 22] (*<-lang_ru;;*);
 <- rrel_key_sc_element: Image_organization_The_Gallery_u (*
     => nrel_main_idtf: [Изображение галереи] (* <- lang_ru;; *);;
     <-sc_illustration;;
@@ -386,6 +416,8 @@ organization_The_Gallery_u
 	[г. Минск, пр-т Независимости, 37a] (* <- lang_ru;; *);;
 
 organization_living_U_Galubka
+=> nrel_telephone: [8 017 286-74-03];
+=> nrel_hospital_working_hours: [ежедневно кроме вс. и пн. с 10 до 17:30] (*<-lang_ru;;*);
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -409,6 +441,8 @@ organization_living_U_Galubka
 	[г. Минск, ул. Старовиленская, 14] (* <- lang_ru;; *);;
 
 organization_Gallery_M_Savitsky
+=> nrel_telephone: [8 017 321-24-30];
+=> nrel_hospital_working_hours: [ежедневно кроме пн и вт. с 11 до 19];
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -433,6 +467,9 @@ organization_Gallery_M_Savitsky
 
 
 Minsk_scientific_and_technical_library
+=> nrel_telephone:
+    [8 017 203-31-00];
+=> nrel_hospital_working_hours: [понедельник 9–20, вторник 9–20, среда 9–20, четверг 9–20, пятница 9–20, суббота 10–18, воскресенье Закрыто] (*<-lang_ru;;*);
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
@@ -502,6 +539,9 @@ Theatre_Studio_actor
 	[г. Минск, просп. Победителей 13, 220004] (* <- lang_ru;; *);;
 
 Theatre_The_National_Academic_Bolshoi_Opera_and_Ballet_Theatre
+    => nrel_site: [http://bolshoibelarus.by/rus/];
+    => nrel_telephone: [8 017 334-10-41];
+    => nrel_hospital_working_hours: [понедельник 11–19, вторник 11–19, среда 11–19, четверг 11–19, пятница 11–19, суббота 11–19, воскресенье 11–19] (* <- lang_ru;; *);
 <- rrel_key_sc_element: ... (*
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*

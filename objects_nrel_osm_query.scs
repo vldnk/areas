@@ -98,10 +98,6 @@ out body;
 >;
 out skel qt;];;
 
-//organization_hUpper_town
-//=> nrel_address:
-//	[Верхний город] (* <- lang_ru;; *);;
-
 organization_Museum_of_Nature_and_Ecology_Hall
 => nrel_osm_query:
     [(
