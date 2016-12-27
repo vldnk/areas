@@ -346,7 +346,8 @@ organization_Museum_of_History_of_Theatre_and_Music
 	[г. Минск, Музыкальный пер., 5] (* <- lang_ru;; *);;
 
 organization_The_Gallery_u
-<- rrel_key_sc_element: ... (*
+<- rrel_key_sc_element: Image_organization_The_Gallery_u (*
+    => nrel_main_idtf: [Изображение галереи] (* <- lang_ru;; *);;
     <-sc_illustration;;
     <= nrel_sc_text_translation: ... (*
     	-> rrel_example: "file://contents/18_1.jpg"(*

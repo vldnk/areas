@@ -11,3 +11,165 @@ section_Soviet_district
 	(*
 	-> rrel_example: "file://htmls/section_Soviet_district.html" (* <-lang_ru;; *);;
 	*);;
+
+organization_history_Museum_of_the_city_of_Minsk
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Музей расположен в историческом центре Минска на территории Верхнего города. Здание является памятником архитектуры XIX в. Для посетителей музей открыл свои двери 8 мая 2010 г. экспозицией «Художник Гражданин. Герой», посвящённой Герою Беларуси, народному художнику Беларуси, Почетному гражданину города Минска Михаилу Андреевичу Савицкому. Фонды музея включают более 7 тысяч единиц хранения (2012). Их основу составляют коллекции археологических раскопок Минска XI-XIX вв., предметов городского быта, фотоаппаратов конца XIX-XX вв., живописи, графики, декоративно-прикладного искусства, мемориальные собрания знаменитых личностей. В структуру музея входят: Минская городская ратуша (пл. Свободы, 2а), Художественная галерея Михаила Савицкого (пл. Свободы, 15), Городская художественная галерея произведений Л.Д. Щемелёва (пр. Рокоссовского, 49), Мастерская-музей народного художника Беларуси скульптора Ивана Миско (ул. Интернациональная, 11а), Флигель Лошицкого усадебно-паркового комплекса (проезд Чижевских, 10). В музее организуются сменные тематические выставки, в том числе международные, на основе собраний коллекционеров, художников, фотографов, разных организаций и учреждений, а также разнообразные творческие проекты: концерты, семинары, конференции, акции, пленеры.]
+			(* <- lang_ru;; *);;
+		*);;
+		
+	*);;
+
+organization_House_Museum_of_I_Congress_of_the_RSDLP
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Дом-музей I съезда РСДРП ― музей в память о I съезде Российской социал-демократической рабочей партии (РСДРП), проходившем в Минске.]
+			(* <- lang_ru;; *);;
+		*);;
+		
+	*);;
+
+organization_ARTbaZa_MINSK
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			"file://htmls/organization_ARTbaZa_MINSK.html" (* <-lang_ru;; *);;
+		*);;
+	*);;
+
+organization_Andes
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			"file://htmls/organization_Andes.html" (* <-lang_ru;; *);;
+		*);;
+	*);;
+
+organization_Artplats
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			"file://htmls/organization_Artplats.html" (* <-lang_ru;; *);;
+		*);;
+	*);;
+
+organization_Archaeological_Museum
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			"file://htmls/organization_Archaeological_Museum.html" (* <-lang_ru;; *);;
+		*);;
+	*);;
+
+organization_Museum_of_WWII_History
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			"file://htmls/organization_Museum_of_WWII_History.html" (* <-lang_ru;; *);;
+		*);;
+	*);;
+
+organization_Brama_Gallery
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			"file://htmls/organization_Brama_Gallery.html" (* <-lang_ru;; *);;
+		*);;
+	*);;
+
+organization_Museum_of_Nature_and_Ecology_Hall
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			"file://htmls/organization_Museum_of_Nature_and_Ecology_Hall.html" (* <-lang_ru;; *);;
+		*);;
+	*);;
+
+organization_Museum_of_Yanka_Kupala
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			"file://htmls/organization_Museum_of_Yanka_Kupala.html" (* <-lang_ru;; *);;
+		*);;
+	*);;
+
+organization_The_Gallery_u
+<- rrel_key_sc_element:
+	Definition_organization_The_Gallery_u
+	(*
+	=> nrel_main_idtf: [Опр. (Галерея Ў)] (* <- lang_ru;; *);;
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			"file://htmls/organization_The_Gallery_u.html" (* <-lang_ru;; *);;
+		*);;
+	*);;
+
+Theatre_The_National_Academic_Bolshoi_Opera_and_Ballet_Theatre
+<- rrel_key_sc_element:
+	Definition_Theatre_Small_stage_of_the_National_Academic_Theater_Kupala
+	(*
+	=> nrel_main_idtf: [Опр. (Национальный академический Большой театр оперы и балета)] (* <- lang_ru;; *);;
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			"file://htmls/Theatre_Small_stage_of_the_National_Academic_Theater_Kupala.html" (* <-lang_ru;; *);;
+		*);;
+	*);;
