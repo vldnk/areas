@@ -10,6 +10,22 @@ concept_cinema <- sc_node_not_relation;
 => nrel_main_idtf:
 		[кинотеатр] (* <- lang_ru;; *);;
 
+concept_university <- sc_node_not_relation; 
+=> nrel_main_idtf:
+		[университет] (* <- lang_ru;; *);;
+
+concept_college <- sc_node_not_relation; 
+=> nrel_main_idtf:
+		[колледж] (* <- lang_ru;; *);;
+
+concept_swimming_pool <- sc_node_not_relation; 
+=> nrel_main_idtf:
+		[бассейн] (* <- lang_ru;; *);;
+
+concept_park <- sc_node_not_relation; 
+=> nrel_main_idtf:
+		[парк] (* <- lang_ru;; *);;
+
 concept_entertainment_center
 <- sc_node_not_relation;
 => nrel_main_idtf:
@@ -28,7 +44,39 @@ nrel_opening_date
 nrel_square
 <- sc_node_norole_relation;
 => nrel_main_idtf:
-		[площадь*] (* <- lang_ru;; *);;				
+		[площадь*] (* <- lang_ru;; *);;		
+
+concept_square
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+		[площадь] (* <- lang_ru;; *);;		
+
+concept_market
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+		[рынок] (* <- lang_ru;; *);;					
+
+Soviet_district => nrel_inclusion:
+	belarusian_state_philharmonic;
+	cinema_October;
+	central_city_library_Kupala;
+	minsk_regional_library_of_Pushkin;
+	Max_Show_night_club;
+	entertainment_center_UFO;
+	entertainment_center_DOZARI;
+	minsk_state_trade_college;
+	komorowski_park;
+	gallery_of_modern_art;
+	pool_BSUIR;
+	BNTU_library;
+	Kolas_square;
+	museum_of_sports_of_soviet_district;
+	belarusian_national_technical_university;
+	belarusian_state_university_of_informatics_and_radioelectronics;
+	park_of_friendship_of_peoples;
+	Komarovsky_market;
+	Bangalore_square;;
+
 
 belarusian_state_philharmonic
 => nrel_main_idtf:
@@ -220,4 +268,296 @@ museum_of_sports_of_soviet_district
 
 Kolas_square 		 
 => nrel_main_idtf:
-		[Площадь Я.Коласа] (* <- lang_ru;; *);;
+		[Площадь Я.Коласа] (* <- lang_ru;; *);
+<- concept_square;;
+
+Soviet_district
+=> nrel_osm_query:
+    [
+(
+  node["addr:city"="Минск"]["name"="Советский район"];
+  way["addr:city"="Минск"]["name"="Советский район"];
+  relation["addr:city"="Минск"]["name"="Советский район"];
+);
+out body;
+>;
+out skel qt;
+    ];;		
+
+
+belarusian_national_technical_university
+=> nrel_main_idtf:
+		[Белорусский национальный технический университет] (* <- lang_ru;; *);
+
+=> nrel_osm_query:
+    [
+    	(
+  node["name"="Белорусский национальный технический университет"];
+  way["name"="Белорусский национальный технический университет"];
+  relation["name"="Белорусский национальный технический университет"];
+);
+out body;
+>;
+out skel qt;
+    ];
+
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://images/1.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);
+
+<- concept_university;;	
+
+belarusian_state_university_of_informatics_and_radioelectronics
+=> nrel_main_idtf:
+		[Белорусский государственный университет информатики и радиоэлектроники] (* <- lang_ru;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[БГУИР является ведущим вузом в отрасли, базовой организацией государств-участников СНГ по высшему образованию в области информатики и радиоэлектроники
+Имеет сертификаты соответствия системы менеджмента качества требованиям международного стандарта ISО 9001 в Национальной системе подтверждения соответствия Республики Беларусь и в немецкой системе сертификации DAkkS
+Аккредитован в Государственном комитете по науке и технологиям и Национальной академии наук Беларуси на статус научной организации
+
+Удостоен премии Правительства Республики Беларусь за достижения в области качества по итогам 2011 года
+
+Занесён на Республиканскую доску Почёта
+			]
+			(* <- lang_ru;; *);;
+		*);;	
+	*);
+
+=> nrel_osm_query:
+    [
+    	(
+  node["name"="БГУИР 2к"];
+  way["name"="БГУИР 2к"];
+  relation["name"="БГУИР 2к"];
+);
+out body;
+>;
+out skel qt;
+
+    	(
+  node["name"="БГУИР 1к"];
+  way["name"="БГУИР 1к"];
+  relation["name"="БГУИР 1к"];
+);
+out body;
+>;
+out skel qt;
+
+    	(
+  node["name"="БГУИР 3к"];
+  way["name"="БГУИР 3к"];
+  relation["name"="БГУИР 3к"];
+);
+out body;
+>;
+out skel qt;
+
+    	(
+  node["name"="БГУИР 4к"];
+  way["name"="БГУИР 4к"];
+  relation["name"="БГУИР 4к"];
+);
+out body;
+>;
+out skel qt;
+
+    	(
+  node["name"="БГУИР 5к"];
+  way["name"="БГУИР 5к"];
+  relation["name"="БГУИР 5к"];
+);
+out body;
+>;
+out skel qt;
+    ];
+
+<- concept_university;;
+
+
+pool_BSUIR
+=> nrel_main_idtf:
+		[бассейн БГУИР] (* <- lang_ru;; *);
+
+=> nrel_osm_query:
+    [
+        	(
+  node["name"="Бассейн БГУИР"];
+  way["name"="Бассейн БГУИР"];
+  relation["name"="Бассейн БГУИР"];
+);
+out body;
+>;
+out skel qt;
+    ];
+
+<- concept_swimming_pool;;	
+
+gallery_of_modern_art
+=> nrel_main_idtf:
+		[Галерея современного искусства] (* <- lang_ru;; *);
+
+=> nrel_osm_query:
+    [
+    	(
+  node["name"="Галерея современного искусства"]["name:be"="Галерэя сучаснага мастацтва"];
+  way["name"="Галерея современного искусства"]["name:be"="Галерэя сучаснага мастацтва"];
+  relation["name"="Галерея современного искусства"]["name:be"="Галерэя сучаснага мастацтва"];
+);
+out body;
+>;
+out skel qt;
+    ];
+
+<- concept_gallery;
+<- concept_museum;;
+
+komorowski_park 
+=> nrel_main_idtf:
+		[Комаровский сквер] (* <- lang_ru;; *);
+=> nrel_osm_query:
+    [
+    	(
+  node["name"="Комаровский сквер"];
+  way["name"="Комаровский сквер"];
+  relation["name"="Комаровский сквер"];
+);
+out body;
+>;
+out skel qt;
+    ];
+
+<- concept_park;;
+
+minsk_state_trade_college
+=> nrel_main_idtf:
+		[Минский государственный торговый колледж] (* <- lang_ru;; *);
+
+=> nrel_osm_query:
+    [
+    	(
+  node["name"="Минский государственный торговый колледж"];
+  way["name"="Минский государственный торговый колледж"];
+  relation["name"="Минский государственный торговый колледж"];
+);
+out body;
+>;
+out skel qt;
+    ];
+
+<- concept_college;;
+
+park_of_friendship_of_peoples
+=> nrel_main_idtf:
+		[Парк Дружбы Народов] (* <- lang_ru;; *);
+
+=> nrel_osm_query:
+    [
+    	(
+  node["name"="Парк Дружбы Народов"];
+  way["name"="Парк Дружбы Народов"];
+  relation["name"="Парк Дружбы Народов"];
+);
+out body;
+>;
+out skel qt;
+    ];
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[
+			Парк Дружбы народов — ландшафтный парк в Советском районе г. Минска, созданный в 1978 г. на месте Минской опытной болотной станции.
+			]
+			(* <- lang_ru;; *);;
+		*);;	
+	*);
+
+<- concept_park;; 
+
+Bangalore_square
+=> nrel_main_idtf:
+	[площадь Бангалор] (* <- lang_ru;; *);
+
+=> nrel_osm_query:
+    [
+    	(
+  node["name"="площадь Бангалор"];
+  way["name"="площадь Бангалор"];
+  relation["name"="площадь Бангалор"];
+);
+out body;
+>;
+out skel qt;
+    ];
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[
+			Площадь носит название индийского города Бангалор, который является городом-побратимом Минска с 1986 года. Ранее в быту называлась площадью Горького (по прежнему названию улицы Богдановича; официального имени не имела). В свою очередь, одна из площадей в Бангалоре носит имя белорусской столицы.
+			]
+			(* <- lang_ru;; *);;
+		*);;	
+	*);
+
+<- concept_square;;
+
+Komarovsky_market
+=> nrel_main_idtf:
+	[Комаровский рынок] (* <- lang_ru;; *);
+
+=> nrel_osm_query:
+    [
+    	(
+  node["name"="Комаровский рынок"]["addr:housenumber"="8"];
+  way["name"="Комаровский рынок"]["addr:housenumber"="8"];
+  relation["name"="Комаровский рынок"]["addr:housenumber"="8"];
+);
+out body;
+>;
+out skel qt;
+    ];
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[
+			Минский Комаровский рынок (белор. Мінскі Камароўскі рынак) — главный продовольственный рынок Минска, расположен в Советском районе Минска (иногда сокращённо неофициально называется Комаровка).
+
+			Название рынка происходит от исторического названия местности, где он был построен — Комаровка.
+			]
+			(* <- lang_ru;; *);;
+		*);;	
+	*);
+
+<- concept_market;;
