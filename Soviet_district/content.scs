@@ -31,6 +31,11 @@ concept_entertainment_center
 => nrel_main_idtf:
 		[развлекательный центр] (* <- lang_ru;; *);;
 
+concept_shopping_center => 
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+		[торговый центр] (* <- lang_ru;; *);;
+
 concept_night_club
 <- sc_node_not_relation; 
 => nrel_main_idtf:
@@ -75,6 +80,12 @@ Soviet_district => nrel_inclusion:
 	belarusian_state_university_of_informatics_and_radioelectronics;
 	park_of_friendship_of_peoples;
 	Komarovsky_market;
+	shopping_center_Riga;
+	shopping_center_Mirror;
+	shopping_center_Impulse;
+	shopping_center_Silhouette;
+	shopping_center_Nekrasovsky;
+	shopping_center_Moscow_Vienna;
 	Bangalore_square;;
 
 
@@ -561,3 +572,115 @@ out skel qt;
 	*);
 
 <- concept_market;;
+
+
+shopping_center_Riga
+=> nrel_main_idtf:
+	[тц. Рига] (* <- lang_ru;; *);
+
+=> nrel_osm_query:
+    [
+    	(
+          node["name"="ТЦ Рига"]["addr:housenumber"="50"];
+  way["name"="ТЦ Рига"]["addr:housenumber"="50"];
+  relation["name"="ТЦ Рига"]["addr:housenumber"="50"];
+);
+out body;
+>;
+out skel qt;
+    ];
+
+<- concept_shopping_center;;
+
+shopping_center_Mirror
+=> nrel_main_idtf:
+	[тц. Зеркало] (* <- lang_ru;; *);
+
+=> nrel_osm_query:
+    [
+    	(
+          node["name"="ОПОП-101"];
+  way["name"="ОПОП-101"];
+  relation["name"="ОПОП-101"];
+);
+out body;
+>;
+out skel qt;
+    ];
+
+<- concept_shopping_center;;
+
+shopping_center_Impulse
+=> nrel_main_idtf:
+	[тц. Импульс] (* <- lang_ru;; *);
+
+=> nrel_osm_query:
+    [
+    	(
+          node["name"="ТЦ «Импульс»"];
+  way["name"="ТЦ «Импульс»"];
+  relation["name"="ТЦ «Импульс»"];
+);
+out body;
+>;
+out skel qt;
+
+    ];
+
+<- concept_shopping_center;;
+
+shopping_center_Silhouette
+=> nrel_main_idtf:
+	[тц. Силуэт] (* <- lang_ru;; *);
+
+=> nrel_osm_query:
+    [
+    	(
+          node["name"="ТЦ Силуэт"];
+  way["name"="ТЦ Силуэт"];
+  relation["name"="ТЦ Силуэт"];
+);
+out body;
+>;
+out skel qt;
+    ];
+
+<- concept_shopping_center;;
+
+
+shopping_center_Nekrasovsky
+=> nrel_main_idtf:
+	[тц. Некрасовский] (* <- lang_ru;; *);
+
+=> nrel_osm_query:
+    [
+    	(
+          node["name"="ТД Некрасовский"];
+  way["name"="ТД Некрасовский"];
+  relation["name"="ТД Некрасовский"];
+);
+out body;
+>;
+out skel qt;
+    ];
+
+<- concept_shopping_center;;
+
+shopping_center_Moscow_Vienna
+=> nrel_main_idtf:
+	[тц. Московско-Венский] (* <- lang_ru;; *);
+
+=> nrel_osm_query:
+    [
+    	(
+          node["name"="Московско-венский"];
+  way["name"="Московско-венский"];
+  relation["name"="Московско-венский"];
+);
+out body;
+>;
+out skel qt;
+
+    ];
+
+<- concept_shopping_center;;
