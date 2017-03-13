@@ -1,0 +1,21 @@
+organization_8
+=> nrel_main_idtf:
+	[Аристократ];
+<= nrel_inclusion: Pervomaisky_district;
+<- concept_art_Gallery;
+=> nrel_osm_query: [(
+  node["addr:street"="Логойский тракт"]["addr:housenumber"="10"]["addr:postcode"="220113"];
+  way["addr:street"="Логойский тракт"]["addr:housenumber"="10"]["addr:postcode"="220113"];
+  relation["addr:street"="Логойский тракт"]["addr:housenumber"="10"]["addr:postcode"="220113"];
+);
+out body;
+>;
+out skel qt;];
+=> nrel_address:
+	[Минск, Логойский тракт, 10];
+<- rrel_key_sc_element: ... (*
+	<- sc_illustration;;
+	<= nrel_sc_text_translation: ... (*
+		-> rrel_example: "file://contents/8.jpg" (* => nrel_format: format_jpg;; *);;
+	*);;
+*);;

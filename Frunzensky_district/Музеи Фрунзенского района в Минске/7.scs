@@ -1,0 +1,21 @@
+organization_7
+=> nrel_main_idtf:
+	[Галерея ДК];
+<= nrel_inclusion: Central_district;
+<- concept_gallery;
+=> nrel_osm_query: [(
+  node["addr:street"="улица Герцена"]["addr:housenumber"="2"]["shop"="hairdresser"];
+  way["addr:street"="улица Герцена"]["addr:housenumber"="2"]["shop"="hairdresser"];
+  relation["addr:street"="улица Герцена"]["addr:housenumber"="2"]["shop"="hairdresser"];
+);
+out body;
+>;
+out skel qt;];
+=> nrel_address:
+	[Минск, ул. Герцена, 2a];
+<- rrel_key_sc_element: ... (*
+	<- sc_illustration;;
+	<= nrel_sc_text_translation: ... (*
+		-> rrel_example: "file://contents/7.jpg" (* => nrel_format: format_jpg;; *);;
+	*);;
+*);;

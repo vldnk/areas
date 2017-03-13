@@ -1,0 +1,7 @@
+organization_43
+=> nrel_main_idtf:
+	[Вольга Сазыкіна];
+<= nrel_inclusion: Frunzensky_district;
+<- concept_museum;
+=> nrel_address:
+	[Минск, ул. Некрасова];;

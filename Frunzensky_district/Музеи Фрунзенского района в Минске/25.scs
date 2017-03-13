@@ -1,0 +1,7 @@
+organization_25
+=> nrel_main_idtf:
+	[PhotoGallery ZНЯТА];
+<= nrel_inclusion: Frunzensky_district;
+<- concept_museum;
+=> nrel_address:
+	[Минск, пр. Независимости];;

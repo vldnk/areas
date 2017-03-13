@@ -1,0 +1,7 @@
+organization_50
+=> nrel_main_idtf:
+	[Галерея искусства];
+<= nrel_inclusion: Frunzensky_district;
+<- concept_museum;
+=> nrel_address:
+	[Минск, ул. Октябрьская];;

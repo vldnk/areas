@@ -1,0 +1,7 @@
+organization_48
+=> nrel_main_idtf:
+	[Галерея 12];
+<= nrel_inclusion: Frunzensky_district;
+<- concept_museum;
+=> nrel_address:
+	[Минск, ул. Я. Коласа];;

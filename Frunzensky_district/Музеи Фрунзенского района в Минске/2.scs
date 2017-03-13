@@ -1,0 +1,20 @@
+organization_2
+=> nrel_main_idtf:
+	[Музей авиационной техники];
+<= nrel_inclusion: Frunzensky_district;
+=> nrel_osm_query: [(
+  node["name"="Музей авиационной техники"]["tourism"="museum"];
+  way["name"="Музей авиационной техники"]["tourism"="museum"];
+  relation["name"="Музей авиационной техники"]["tourism"="museum"];
+);
+out body;
+>;
+out skel qt;];
+=> nrel_address:
+	[пос. Боровая];
+<- rrel_key_sc_element: ... (*
+	<- sc_illustration;;
+	<= nrel_sc_text_translation: ... (*
+		-> rrel_example: "file://contents/2.jpg" (* => nrel_format: format_jpg;; *);;
+	*);;
+*);;

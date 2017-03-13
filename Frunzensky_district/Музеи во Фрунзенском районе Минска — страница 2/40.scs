@@ -1,0 +1,7 @@
+organization_40
+=> nrel_main_idtf:
+	[Брама];
+<= nrel_inclusion: Frunzensky_district;
+<- concept_museum;
+=> nrel_address:
+	[Минск, пр-т. Независимости];;

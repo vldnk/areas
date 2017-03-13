@@ -1,0 +1,15 @@
+organization_17
+=> nrel_main_idtf:
+	[PhotoGallery ZНЯТА];
+<= nrel_inclusion: Central_district;
+<- concept_gallery;
+=> nrel_osm_query: [(
+  node["addr:street"="проспект Независимости"]["addr:housenumber"="13"]["building"="residential"];
+  way["addr:street"="проспект Независимости"]["addr:housenumber"="13"]["building"="residential"];
+  relation["addr:street"="проспект Независимости"]["addr:housenumber"="13"]["building"="residential"];
+);
+out body;
+>;
+out skel qt;];
+=> nrel_address:
+	[Минск, пр. Независимости, 13];;

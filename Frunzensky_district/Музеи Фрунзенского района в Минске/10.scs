@@ -1,0 +1,14 @@
+organization_10
+=> nrel_main_idtf:
+	[Музей интересной науки Элементо];
+<= nrel_inclusion: Frunzensky_district;
+=> nrel_osm_query: [(
+  node["addr:street"="улица Притыцкого"]["addr:housenumber"="29"]["tourism"="museum"];
+  way["addr:street"="улица Притыцкого"]["addr:housenumber"="29"]["tourism"="museum"];
+  relation["addr:street"="улица Притыцкого"]["addr:housenumber"="29"]["tourism"="museum"];
+);
+out body;
+>;
+out skel qt;];
+=> nrel_address:
+	[Минск, ул. Притыцкого, 29];;

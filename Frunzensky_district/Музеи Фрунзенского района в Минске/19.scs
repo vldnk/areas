@@ -1,0 +1,7 @@
+organization_19
+=> nrel_main_idtf:
+	[Дом-музей I съезда РСДРП];
+<= nrel_inclusion: Frunzensky_district;
+<- concept_museum;
+=> nrel_address:
+	[Минск, пр-т Независимости];;

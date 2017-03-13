@@ -1,0 +1,7 @@
+organization_38
+=> nrel_main_idtf:
+	[Белорусский союз дизайнеров];
+<= nrel_inclusion: Frunzensky_district;
+<- concept_museum;
+=> nrel_address:
+	[Минск, ул. Брилевская];;

@@ -1,0 +1,7 @@
+organization_23
+=> nrel_main_idtf:
+	[A&V];
+<= nrel_inclusion: Frunzensky_district;
+<- concept_museum;
+=> nrel_address:
+	[Минск, ул. Революционная];;

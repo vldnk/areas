@@ -1,0 +1,7 @@
+organization_37
+=> nrel_main_idtf:
+	[Музей архитектуры и быта];
+<= nrel_inclusion: Frunzensky_district;
+<- concept_museum;
+=> nrel_address:
+	[д. Озерцо];;

@@ -1,0 +1,21 @@
+organization_1
+=> nrel_main_idtf:
+	[Музей истории белорусского кино];
+<= nrel_inclusion: October_district;
+<- concept_museum;
+=> nrel_osm_query: [(
+  node["addr:street"="улица Свердлова"]["addr:housenumber"="4"]["amenity"="cinema"];
+  way["addr:street"="улица Свердлова"]["addr:housenumber"="4"]["amenity"="cinema"];
+  relation["addr:street"="улица Свердлова"]["addr:housenumber"="4"]["amenity"="cinema"];
+);
+out body;
+>;
+out skel qt;];
+=> nrel_address:
+	[Минск, ул. Свердлова, 4];
+<- rrel_key_sc_element: ... (*
+	<- sc_illustration;;
+	<= nrel_sc_text_translation: ... (*
+		-> rrel_example: "file://contents/1.jpg" (* => nrel_format: format_jpg;; *);;
+	*);;
+*);;

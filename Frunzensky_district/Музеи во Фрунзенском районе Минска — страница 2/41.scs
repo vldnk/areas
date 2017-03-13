@@ -1,0 +1,7 @@
+organization_41
+=> nrel_main_idtf:
+	[Верхний город];
+<= nrel_inclusion: Frunzensky_district;
+<- concept_museum;
+=> nrel_address:
+	[Минск, пл. Свободы];;

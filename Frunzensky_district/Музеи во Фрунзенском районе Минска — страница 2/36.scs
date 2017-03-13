@@ -1,0 +1,7 @@
+organization_36
+=> nrel_main_idtf:
+	[Музей истории ВОВ];
+<= nrel_inclusion: Frunzensky_district;
+<- concept_museum;
+=> nrel_address:
+	[Минск, пр-т Победителей];;

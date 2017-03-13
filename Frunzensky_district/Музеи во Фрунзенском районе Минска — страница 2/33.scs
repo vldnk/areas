@@ -1,0 +1,7 @@
+organization_33
+=> nrel_main_idtf:
+	[Арт Сядзіба];
+<= nrel_inclusion: Frunzensky_district;
+<- concept_museum;
+=> nrel_address:
+	[Минск, пр-т Независимости];;

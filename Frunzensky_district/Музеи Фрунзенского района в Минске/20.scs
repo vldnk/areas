@@ -1,0 +1,7 @@
+organization_20
+=> nrel_main_idtf:
+	[Сула];
+<= nrel_inclusion: Frunzensky_district;
+<- concept_museum;
+=> nrel_address:
+	[Минская обл. Столбцовский р-н д. Сула];;

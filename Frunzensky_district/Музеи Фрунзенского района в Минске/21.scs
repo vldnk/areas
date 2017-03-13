@@ -1,0 +1,7 @@
+organization_21
+=> nrel_main_idtf:
+	[Квантум];
+<= nrel_inclusion: Frunzensky_district;
+<- concept_museum;
+=> nrel_address:
+	[Минск, пр-т Газеты Правда];;

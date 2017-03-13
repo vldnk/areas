@@ -1,0 +1,7 @@
+organization_42
+=> nrel_main_idtf:
+	[Вильнюс];
+<= nrel_inclusion: Frunzensky_district;
+<- concept_museum;
+=> nrel_address:
+	[Минск, ул. Калиновского];;
